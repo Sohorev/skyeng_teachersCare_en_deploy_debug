@@ -1,0 +1,11 @@
+/MainMenu/PopularQuestions: popular
+/MainMenu/PopularQuestions/SaveLesson: lesson_save
+/MainMenu/VirtualAssistans: chatbot_manual
+
+/TeachingAtPlatform/PlatformQuestions: platform
+/TeachingAtPlatform/HomeworkAndTests: platform_tools
+/TeachingAtPlatform/HomeworkAndTests/Tests: platform_tools_tests
+/TeachingAtPlatform/HomeworkAndTests/Dictionaries: platform_tools_dictionary
+/TeachingAtPlatform/HomeworkAndTests/Homework: platform_tools_homework
+/TeachingAtPlatform/HomeworkAndTests/LessonRecordings: platform_tools_recordings
+/TeachingAtPlatform/GroupMeetings: platform_meetings

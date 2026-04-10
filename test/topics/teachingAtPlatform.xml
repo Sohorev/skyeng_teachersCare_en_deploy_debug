@@ -1,0 +1,15 @@
+<test>
+    
+    <test-case id="Platform → Homework branch → Tests">
+        <state>TeachingAtPlatform/PlatformQuestions</state>
+        <q>Homework, tests and other</q>
+        <a>a24.000.004en</a>
+        <responseData field="replies[1].buttons">
+            [{"text":"b24.007.002en"}]
+        </responseData>
+        <q>Tests</q>
+        <a>a24.007.001en</a>
+        <a>a24.000.012en</a>
+    </test-case>
+    
+</test>

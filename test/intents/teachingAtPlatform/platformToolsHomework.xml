@@ -1,0 +1,115 @@
+<test>
+
+	<test-case>
+    	<q>i was wondering if my students take the computer-based IELTS exam can they underline words during it? Or is that only possible for the handwritten version? Thanks!</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to send a test to a student as homework?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to submit homework?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How do I submit a lesson card as homework?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to check your homework?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Where can a student find homework?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I want to delete homework that has already been submitted</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How can I reset an assignment that was sent to a student?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to send a student an assignment in class</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Homework is not sent</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How do I submit an assignment after class?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to submit a Progress Test as homework?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How can I see what homework has been sent to a student?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to revoke homework?</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Other activities with homework cards</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Homework</q>
+    	<a>a24.007.003en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+</test>

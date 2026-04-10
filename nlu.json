@@ -1,0 +1,2579 @@
+{
+  "project" : {
+    "id" : "teacherscare_en_prod-1000111377-Xzn",
+    "name" : "teacherscare_en_prod-1000111377-Xzn",
+    "folder" : "/platform"
+  },
+  "settings" : {
+    "language" : "ru",
+    "spellingCorrection" : false,
+    "classificationAlgorithm" : "transformer",
+    "timezone" : "UTC",
+    "shared" : false,
+    "validation" : {
+      "phraseValidationEnabled" : false,
+      "answerValidationEnabled" : false,
+      "phraseValidationThreshold" : 0.5,
+      "answerValidationThreshold" : 0.8
+    }
+  },
+  "intents" : [ {
+    "path" : "/lesson_missed",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "He's not in class but he sent me a message that he's changing teacher and lesson schedule."
+    }, {
+      "text" : "no student 367526 in class"
+    }, {
+      "text" : "Student ID 346713 does not attend the current lesson."
+    }, {
+      "text" : "I have a new student. First time and doesn't come to class"
+    }, {
+      "text" : "Student does not go to class ID 892163"
+    }, {
+      "text" : "87123 student is not in class"
+    }, {
+      "text" : "I have a lesson now, but the student is not there, he is not responding to messages."
+    }, {
+      "text" : "student is not in class 8562 SMS sent in 6 minutes"
+    }, {
+      "text" : "is there any connection with student 2837847? Not in class yet, online but not responding"
+    }, {
+      "text" : "The lesson is supposed to be going on now, but the student doesn't show up"
+    }, {
+      "text" : "Please contact student Miron  ID 34878. Absent from class, don't answer the phone."
+    }, {
+      "text" : "Student ID 36478 does not show up for the first lesson. I sent a notification, but my mother does not respond to the message. If they don’t get in touch, should I cheat the very first lesson?"
+    }, {
+      "text" : "There is a lesson in progress, the student did not warn and does not go to class"
+    }, {
+      "text" : "What to do if a student does not come to class"
+    }, {
+      "text" : "What should I do if a student never shows up for class? Wait until the end of the lesson? What to put in the status?"
+    }, {
+      "text" : "Student skipped a lesson"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_failed_by_student",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I accidently marked today's 8am lesson with stuID 17789527 as held, it was missed by student"
+    }, {
+      "text" : "Nobody came to the lesson, if the student doesn’t come any further, should I give truancy?"
+    }, {
+      "text" : "I just finished a lesson with a new student who didn't show up. What should I do? ID 237647"
+    }, {
+      "text" : "Today Id 964214 at 8 Moscow time was supposed to have my very first lesson. What’s the best way to mark the lesson (it’s the first one, after all)?"
+    }, {
+      "text" : "student ID 32948675 did not show up for class at the appointed time, contacted her via Skype and chat, she replied: sorry, I can’t be there today. and offline again. suggested finding a time to reschedule no answer yet. What should be my next steps?"
+    }, {
+      "text" : "65894782 did not go to class. How do I mark a lesson?"
+    }, {
+      "text" : "student ID 27829836 did not show up for class at the appointed time, what class status should I set?"
+    }, {
+      "text" : "Student Sergei 564896728 did not show up for classes again. What should I do with the lesson status?"
+    }, {
+      "text" : "If a student does not show up for class and has a fever, what status should he be assigned?"
+    }, {
+      "text" : "Yesterday it was not possible to conduct a lesson with student ID 3264378 , as there were problems with communication. How can I mark a failed lesson? The only contact with the student was via chat on the platform and he did not respond there at all."
+    }, {
+      "text" : "First lesson with a student, the student was not in class 456798"
+    }, {
+      "text" : "What to do if the student was not in class, what status should be noted"
+    }, {
+      "text" : "The student did not come to class, they replied via WhatsApp that he was sick. What should I do?"
+    }, {
+      "text" : "Which status should I choose? The student did not show up for class and did not respond to the message."
+    }, {
+      "text" : "I waited the whole lesson, the student did not come to class. Which status should I choose?"
+    }, {
+      "text" : "Status when a student skipped their lesson"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/balance_zero",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "well i have a student, Anastasia, 7774731, who has 0 balance. Can skyeng call her parents if they would like to continue?"
+    }, {
+      "text" : "I have a zero balance student who has not been removed yet 24461441"
+    }, {
+      "text" : "second, for my student, Natalya 1701004, the teachers' care last Monday told me to wait for my student's response. however she has 0 balance and she missed 3 classes already."
+    }, {
+      "text" : "I have 2 students this morning with zero balances, but when you click on them it says they have paid. Please advise as I am loosing students this week because of this. Is there a payment issue? Thanks 😊"
+    }, {
+      "text" : "I can't add because the student has 0 balance."
+    }, {
+      "text" : "Good morning can you please check where student Boris has paid? His i.d. is 2636828, but it still shows 0 lessons"
+    }, {
+      "text" : "Hi! My student ID 37371607 has zero balance, and there is another student asking me to move the lesson for 3pm. Since Elena has 0 balance, is it possible to remove her today's lesson, so I can have another student at that time or is that against company policy?"
+    }, {
+      "text" : "Darina missed last 4 lessons actually ( 0 balance).Maybe it's time to remove her from the schedule?"
+    }, {
+      "text" : "A corporate student has a 0 balance"
+    }, {
+      "text" : "She was removed because of 0 balance. I added her on Saturdays, she wanted one more lesson and I added her on Mondays. Suddenly, there is one more lesson on Thursdays. I have no idea what happened."
+    }, {
+      "text" : "Hi guys. Can you please remove lessons for student 1511401 on Mondays and Thursdays at 2000.She has 0 balance and wont be renewing"
+    }, {
+      "text" : "Monday 15:00 Moscow time as he is taking it off on holiday but has a zero balance which is why I can’t do it. I do know it renews automatically which is why trying to put him on hold before that happens. "
+    }, {
+      "text" : "Hello, I spoke about student II`yas Aldabergen ID 37574733 but no response till now . He isn’t responding and I’m losing my free time with his zero balance for over two weeks now  I could free up that space . Please, help "
+    }, {
+      "text" : "U 9287348 completed his studies this year. He has 0 balance."
+    }, {
+      "text" : "Students with zero balance"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_disappeared",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "The student and I changed the schedule, but today the lesson disappeared and I cannot give a mark. Why is that?"
+    }, {
+      "text" : "the lesson was held at 17:00, I would like to set the status of the lesson, but there is no form"
+    }, {
+      "text" : "My lesson with student 28736754 disappeared from my schedule; the lesson took place at 16:00. I also didn't have time to set the status of the lesson."
+    }, {
+      "text" : "4875846 just finished a lesson, but after finishing he disappeared"
+    }, {
+      "text" : "I just taught a lesson to a student, he topped up his balance 5 minutes before the lesson. But when I finished the lesson, it was removed from the schedule, the platform did not offer to mark the status, and I did not receive payment."
+    }, {
+      "text" : "Today from 16.00 to 16.50 I taught a lesson for student 3467562. But immediately after the lesson, the lesson disappeared from the schedule."
+    }, {
+      "text" : "I'm in class now, but it's not on the schedule)) tell me what to do)"
+    }, {
+      "text" : "The lesson currently going on with student 98236754 has disappeared."
+    }, {
+      "text" : "I have now taught a lesson with Vladislav Fedosov ID 22241870 English, individual, but I cannot see it in the schedule. They don’t offer to mark the status of the lesson either."
+    }, {
+      "text" : "Where did the lesson disappear to? We passed it"
+    }, {
+      "text" : "taught a lesson and he disappeared"
+    }, {
+      "text" : "Lesson deleted. we had a lesson with student "
+    }, {
+      "text" : "The lesson with student 22770764 simply disappeared. The student and I were in class and completely completed the"
+    }, {
+      "text" : "taught one lesson to a student, but he disappeared from the schedule"
+    }, {
+      "text" : "I just taught a lesson, but it’s not on the schedule. tell me what to do"
+    }, {
+      "text" : "A held lesson is missing from the schedule"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_cancel_once",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "ADULT ID 11295435 my student can't able to attend the lesson at 10pm MSK time, she wants to cancel it, can you please do it for us ? thanks in advance IIya"
+    }, {
+      "text" : "Cancel one lesson on Wednesday because a student is sick"
+    }, {
+      "text" : "Student ID 3426757 today asked to cancel the lesson scheduled for Thursday, May 12 at 11:00"
+    }, {
+      "text" : "please cancel the lesson today once from 432354"
+    }, {
+      "text" : "I need to cancel a student's lesson at his request tomorrow within the cancellation limit"
+    }, {
+      "text" : "You can cancel the lesson of student 12354546 on 05.06 at 14:00 at the initiative of the student due to difficult circumstances."
+    }, {
+      "text" : "ID 23435 Student with fever and asks to cancel tomorrow's class"
+    }, {
+      "text" : "What if, for family reasons, I want to cancel the lesson? I coordinated everything with the student’s mother. How to do it?"
+    }, {
+      "text" : "I cannot cancel a one-time lesson for student 16832966. It will take place today at 21.00. I wrote a reminder to the student, but he did not respond. This is a one-time replacement"
+    }, {
+      "text" : "The transfer lesson button is not active. I ask you to cancel the lesson today at 18.00 for student 8676 and tomorrow, April 4 at 9.00, the lesson with student 543243 on the initiative of the students."
+    }, {
+      "text" : "Physics OGE/USE, individual Please help me cancel the lesson. The student will not be able to attend the lesson. The lesson is already underway."
+    }, {
+      "text" : "Please cancel today's lesson at 15:00 with student 3874567836 without charge. His electricity was cut off, force majeure."
+    }, {
+      "text" : "Please cancel your one-time lesson today by calling 546123 at 19:00. For some reason I can't delete the lesson myself. She warned me in advance about the cancellation, but apparently she forgot to cancel the lesson."
+    }, {
+      "text" : "I ask you to cancel the lesson for the student on 09.08 at 18:00 Moscow time on the initiative of the student"
+    }, {
+      "text" : "this student will not be able to study today, they asked to cancel"
+    }, {
+      "text" : "Cancelling a lesson on a one-time basis"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_add_once",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I need to change the time of my lesson with S 7290137, to 13:00 MSK. This is just one time."
+    }, {
+      "text" : "Add a lesson today at 19:00 from 7246378, agreed"
+    }, {
+      "text" : "schedule a one-time lesson today from 3647987 to 17:00"
+    }, {
+      "text" : "We ask you to create an additional lesson with student 348758 for this Friday, so that the first lesson with him ends at 9:50, and the 2nd begins at 10:00."
+    }, {
+      "text" : "Can I schedule a one-time lesson with 4536 on Friday at 4 o’clock?"
+    }, {
+      "text" : "schedule it for April 19 at 13:00 Moscow time. one-time lesson with student ID 6575"
+    }, {
+      "text" : "student ID 435351 asked to put one-time additional lessons in social studies on 06/02 at 17:00, on Thursday 06/06 at 15:00. help make a change to the schedule."
+    }, {
+      "text" : "add a one-time lesson tomorrow with a student (32424) at 14:00 Moscow time."
+    }, {
+      "text" : " arrange a one-time additional lesson with U. 23424. 06/08. 10:00 Moscow time Thank you."
+    }, {
+      "text" : "schedule a lesson with 5456456 today at 22:00. The entire agreement with the student"
+    }, {
+      "text" : "add one one-time lesson for student ID 1231, April 24 at 17.00 Moscow time."
+    }, {
+      "text" : "Please create a lesson for me with ID 32434 tomorrow at 21:00."
+    }, {
+      "text" : "You can schedule a one-time lesson with student 34565767 for tomorrow at 15:00) The time has been agreed upon with the student)"
+    }, {
+      "text" : "Please schedule a one-time lesson with student 23434 on Saturday, April 6 at 9 Moscow time. Agreed."
+    }, {
+      "text" : "2434798 Mom asked to resume classes, please schedule a one-time lesson tomorrow at 12:30"
+    }, {
+      "text" : "Adding a lesson on a one-time basis"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_write_off",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "We rescheduled the lesson for tomorrow, but the lesson was not written off from the student? Check"
+    }, {
+      "text" : "Today I taught a lesson at 16 Moscow time with student 2345647, I immediately marked it as successful, but why is there no additional payment for the lesson and was it debited from the student’s account?"
+    }, {
+      "text" : "The transfer was made in less than 8 hours, why did I not receive payment? According to the school rules, if the transfer is less than 8 hours, I have the right to pay for the lesson. Why was the lesson not copied from the student?"
+    }, {
+      "text" : "I don’t understand how the system works, the student did not show up for class, but he was not debited from him and I did not receive payment"
+    }, {
+      "text" : "I marked the status of a successful lesson today at 12, but the payment did not arrive. Was the lesson deducted from the student's account?"
+    }, {
+      "text" : "Why, after canceling the lesson less than 8 hours in advance, the lesson was not charged to the student and I did not receive payment? According to school rules, I am entitled to payment for the lesson if I cancel less than 8 hours before the start time"
+    }, {
+      "text" : "The student was not present, I marked the lesson cancelled, will the lesson be paid for me?"
+    }, {
+      "text" : "How can I write off a lesson from a student's balance?"
+    }, {
+      "text" : "After marking the status as missed by a student, will the lesson be debited from the student’s balance?"
+    }, {
+      "text" : "I marked the status of the lesson as successful, where is my payment for the lesson? She's not there"
+    }, {
+      "text" : "I marked the lesson status as missed by student, where is my payment for the lesson? she is not there"
+    }, {
+      "text" : "After marking the status, is the lesson written off from the student’s account?"
+    }, {
+      "text" : "What lesson status is written off from the balance?"
+    }, {
+      "text" : "When I receive payment, is the lesson charged to the student?"
+    }, {
+      "text" : "When a lesson is written off from a student"
+    }, {
+      "text" : "When is the lesson deducted?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_restore",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "The lesson of the 16 April was cancelled in advance too. The system also changed that to student was not in class."
+    }, {
+      "text" : "Could you please change the status of the lesson of Svеtlana Dvornikova ID 3427359 today at 12:00 from done since I made a mistake to Failed by the student because she is not in class?"
+    }, {
+      "text" : "sorry, I have accidentally marked the lesson with the student Alexander as completed. ID: 10653779"
+    }, {
+      "text" : "A student asked to move the lesson from this Wednesday to Tuesday, but I mistakenly moved it from next Wednesday. Give it back, lesson"
+    }, {
+      "text" : "I mistakenly moved the lesson from the 24th at 14:00 to the 11th at 12:00. return it to how it was"
+    }, {
+      "text" : "Student 123433 accidentally deleted a regular lesson."
+    }, {
+      "text" : "The lesson from 231974 was postponed and I mistakenly set it for 22-00 for today, I need to restore it as it was"
+    }, {
+      "text" : "I mistakenly canceled the lesson scheduled for April 18th. But it needs to be returned"
+    }, {
+      "text" : "Accidentally rescheduled a lesson with the wrong student. You can cancel the transfer of the lesson from 354751."
+    }, {
+      "text" : "ID 2467598 Please return the lesson to the schedule tomorrow at 17:00. I accidentally canceled i"
+    }, {
+      "text" : "Today the lesson should have been rescheduled, not cancelled. Is it possible to change the status?"
+    }, {
+      "text" : "I accidentally rescheduled a lesson that took place today at 13:00 with student ID 13354456 until tomorrow. Could you please return it for today (Saturday 6.04) at 13:00."
+    }, {
+      "text" : "Lesson 29.5 help me return the status so I can mark the lesson correctly"
+    }, {
+      "text" : "We mistakenly canceled a lesson with student number 1232341 06/06, put it back on the schedule so that the student does not have to use this cancellation"
+    }, {
+      "text" : "ID 13568789 canceled the lesson by mistake, please return it to him."
+    }, {
+      "text" : "Restore a lesson that was cancelled or moved by mistake"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_add_regular",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Student 12314 wants to add a regular lesson on Wednesday at 15.00 starting on 11.04."
+    }, {
+      "text" : "Is it possible to add a regular lesson with a student (ID 13254) on Wednesday at 19.00 Moscow time starting April 7th?"
+    }, {
+      "text" : "I need to schedule a regular lesson for Thursday at 21.00 Student 245467"
+    }, {
+      "text" : "Student number 23895 has requested the addition of one regular social studies class on Sunday at 7:00 pm starting May 14th. Help make changes to the schedule."
+    }, {
+      "text" : "I received a notification that a student wants to study more often. Once we agree on the lesson time, how can we change the frequency of the lessons?"
+    }, {
+      "text" : "A student asks to add one more lesson per week to the schedule, how to do this"
+    }, {
+      "text" : "student ID 1235456 asked to add a permanent lesson to the Sun at 8 Moscow time starting from June 6"
+    }, {
+      "text" : "Student 21345675 wants to add another lesson regularly. She wants to study 3 times Monday 15.00 Wednesday 15.00 Friday 15.00 Moscow time"
+    }, {
+      "text" : "A student asks to add one more lesson per week, what should I do?"
+    }, {
+      "text" : "Please add a regular Chess lesson on Thursdays at 15.00 with a student"
+    }, {
+      "text" : "Please add student 34897 a fourth lesson in the week of July 16th on a regular basis."
+    }, {
+      "text" : "Can a student add a regular lesson himself? How can a student do this?"
+    }, {
+      "text" : "please create for me a permanent lesson with student 234689 on Wednesday at 2:00"
+    }, {
+      "text" : "Add a regular lesson to my schedule on Saturday 1.00 Moscow time"
+    }, {
+      "text" : "The student wants to increase the intensity from 2 to 3 times per week. Add lessons on Fridays at 14 Moscow time"
+    }, {
+      "text" : "Add a new weekly lesson to the schedule"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_move_regular_move",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "the new student 38240574 asked to reschedule regular lessons from Monday to Tuesday at 09:00. It’s more comfortable for her. Please reschedule it. As this is the second lesson with the new student , will this change be counted as a rescheduled lesson of 1-4?"
+    }, {
+      "text" : "My Student Lera 14876535 has asked me to change her regular schedule, she would like to have her Monday lesson at 14:00 instead at 15:00. For some reason, I cannot move the lesson regularly, I am told that there is another student occupying that slot, but there isn't."
+    }, {
+      "text" : "I have a new student 486988 and I have a free slot on Wednesday at 12:00. Can you reschedule her lesson regularly on Wednesdays from 10:00 to 12:00? She agreed and said it’s fine for her. As this is the second lesson with the new student , will this change be counted as a rescheduled lesson of 1-4?"
+    }, {
+      "text" : "Could you change the class times for students from 6am to 8am on Tuesdays and Fridays?"
+    }, {
+      "text" : "Move Dmitry's regular lesson ENGLISH ID 13489882 from Sunday 19-00 to Saturday 10-00"
+    }, {
+      "text" : "Student 13819100's schedule has changed, please put lessons on Saturdays at 11:30 and Wednesdays at 14:30."
+    }, {
+      "text" : "For some reason I can’t reschedule lessons on my own. Student 13819100’s schedule has changed, please change the regular schedule"
+    }, {
+      "text" : "The student needs to make permanent changes to the schedule"
+    }, {
+      "text" : "For some reason I can’t reschedule lessons on my own. Student 13819100's schedule has changed, please put lessons on Saturdays at 11:30 and Wednesdays at 14:30."
+    }, {
+      "text" : "My new student ID 15900689 asked to rearrange the lesson from Friday 13:00 to Thursday 13:00 on an ongoing basis, as Friday is not very convenient for her. Can you please change her schedule?"
+    }, {
+      "text" : "My student asks to change the schedule from Friday 15:00 to Thursday 18:00 on a permanent basis, because Friday is not very convenient for her."
+    }, {
+      "text" : "The parent asked to postpone the lesson on a permanent basis from Sunday to Monday at 12 from today"
+    }, {
+      "text" : "ID 98412 I want to change the student’s time from Thursday 19:00 to Saturday 15:00 regularly."
+    }, {
+      "text" : "Please help me reschedule lessons with student 39847 on Fridays from 12.00 to 10.00 regularly."
+    }, {
+      "text" : "I ask you to change the schedule for students - leave 67352 unchanged Wednesday at 9.00, put the second lesson on Fridays at 8.00, and move the lesson of student 23465 from Friday 8.00 to Thursday 10.00. Changes are regular"
+    }, {
+      "text" : "Permanently reschedule a lesson (change its date or time)"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_cancel_regular",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Also, additionally, please remove regular Friday lessons with Aleksei at 8am"
+    }, {
+      "text" : "can you please remove the Thursday lesson for my student Yana 7182834."
+    }, {
+      "text" : " my student Ina Audzeichyk ID 15615954 would like to have one lesson a week because her company only pays 4lessons per month. She wants to keep the Wednesday lesson. Please remove the Monday lesson from our schedules. Thank you in advance. "
+    }, {
+      "text" : "could you remove the lesson with student ID 10582696 on Tue on a regular basis"
+    }, {
+      "text" : "Can you please remove lessons from ID 12147436 and  ID 9545051 from my schedule on Wed at 12, they will now study not 3 times a week, but twice"
+    }, {
+      "text" : "delete regular lesson with student 16273374 on Friday 10:00, will study once a week for now"
+    }, {
+      "text" : "“You could cancel regular lessons with student 13975855 on Fridays at 10:00, let’s leave them twice a week."
+    }, {
+      "text" : "Student 12760872 will study 2 times a week, so delete the regular lesson on Friday at 13:30, he will study once for now"
+    }, {
+      "text" : "ID 21653614 (Arseny). RU reported that at the moment he can study 2 times a week, instead of 3. It is necessary to remove the regular lesson on Wednesday"
+    }, {
+      "text" : "Is it possible to delete RU from U 11617107 on Mondays at 17.00"
+    }, {
+      "text" : "Student ID 2378467 asks to reduce the number of lessons per week. remove the regular lesson on Wednesday at 15.00. from 3.04. Student request. Reason: few classes left, work longer."
+    }, {
+      "text" : "Parent and student 4376 decided to reduce the number of classes per week. New schedule: Monday at 15:00 and Thursday at 14:00."
+    }, {
+      "text" : "Student 3462783 received a request to reduce the number of classes from 2 to one per week, they decided to leave only Mondays at 19:00 - please change."
+    }, {
+      "text" : "Remove the permanent lesson on Fridays at 18:00 Moscow time from July 9"
+    }, {
+      "text" : "The student changed jobs and it is not convenient for him to study 2 times a week. Remove classes on Tuesdays"
+    }, {
+      "text" : "Reduce the number of lessons in a week"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/student_return",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Hi, I'm trying to recover my student. He had some long travels and holidays combined, and I contacted him after noticing he was removed from my schedule due to the excessive breaks."
+    }, {
+      "text" : "I came back from vacation and would like to return my students, parents were contacted: Lera ID 13699448. Please set her a regular schedule"
+    }, {
+      "text" : "I came back from vacation and almost all of my students fell off my schedule! Can you put them back on the schedule?"
+    }, {
+      "text" : "I ask you to resume classes with student Marjan ID 14712086 schedule Thursday at 18.00 and Saturday at 11.00 "
+    }, {
+      "text" : "“It is necessary to return student Svetlana Pershina ID 1622523 from a long vacation and schedule a regular lesson on Monday 14.00 on August 15."
+    }, {
+      "text" : "My U11133556 has returned from a long vacation and is ready to continue studying with me."
+    }, {
+      "text" : "“I had student 1279078, I sent him on vacation in July until August and the schedule and the student were removed from the list of my friends, can you please restore the schedule?"
+    }, {
+      "text" : "U 16041168 wants to return to school. Class schedule: Mon 20:00 Moscow time, Wed 20:10 Moscow time, Fri 20:00 Moscow time. The first lesson should be scheduled for August 17.  "
+    }, {
+      "text" : "  Student 13845191 returns from vacation"
+    }, {
+      "text" : "Can you put the student back on my schedule? he's coming back from vacation"
+    }, {
+      "text" : "Please return to study with Yaroslav (12783621) (Russian language). Regular lessons on Monday at 19:00 and Friday at 19:00. The schedule has been agreed with the RU. Start of training from 02.09.22."
+    }, {
+      "text" : "My student contacted me and said that he wants to continue studying with me after a pause in training and is ready to add lessons on Mondays at 12, but the student is not on the list, help me add the student to the list"
+    }, {
+      "text" : "The student was on a long break, he was on a business trip, the student and I agreed before the break that he would continue studying in a month, you can bring him back so I can add more lessons."
+    }, {
+      "text" : "The student was on maternity leave, but said that she was ready to resume studying with me, we keep in touch via telegram, I can’t add lessons, help me get the student back"
+    }, {
+      "text" : "How to return the student, we agreed to start lessons next week?"
+    }, {
+      "text" : "Recover a student after a break"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/flexible_schedule",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Good afternoon. Please specify the response time for student Natalia 21951864. A flexible schedule is suitable for the student, 1 walk would like to take place on 9.05 at 17.00, 18.00 or 19.00 Moscow time. We are waiting for your reply."
+    }, {
+      "text" : "I ask you to delete a regular lesson with student ID 8784944 due to the transition to a flexible schedule from April 2"
+    }, {
+      "text" : "Student Gleb 9682181. Wednesday 19.00. Switch to a flexible schedule starting tomorrow. Agreed with the parent."
+    }, {
+      "text" : "I have a student ID: 24314404. The student asked to remove regular lessons, because due to her work (she has a flexible schedule), it is inconvenient for her to study on a regular schedule. Therefore, she and I will build a flexible schedule."
+    }, {
+      "text" : "Please transfer Olga ID 37505080 to a flexible schedule"
+    }, {
+      "text" : "Could you remove lessons from the schedule with student Marina 576539 on Tue and Fri at 9.00, the student will continue studying, but not on a fixed schedule, but on a flexible one"
+    }, {
+      "text" : "Please transfer Vlad ID 24493833 to a flexible schedule."
+    }, {
+      "text" : "please remove the regular lesson with Ekaterina 22476048 on Saturday 14-00, as we have agreed to switch to a flexible schedule"
+    }, {
+      "text" : "I request that student ID 22490382 (Natalia) be transferred to a flexible schedule,"
+    }, {
+      "text" : "How can I switch my class to a flexible schedule on my own?"
+    }, {
+      "text" : "please help me remove the lesson on April 15 from ID 65476, as the student asks for a flexible schedule due to work."
+    }, {
+      "text" : "891732 Please transfer the student to a flexible schedule. At his request, thank you"
+    }, {
+      "text" : "ID 423867 please remove the regular schedule, the student and I are switching to a floating schedule"
+    }, {
+      "text" : " At the request of my student ID 4028206, I ask you to transfer him to a flexible schedule."
+    }, {
+      "text" : " The student and I were unable to agree on a regular schedule and so far agreed to study one-time. Please delete all lessons."
+    }, {
+      "text" : "The student wants to switch to a flexible schedule"
+    }, {
+      "text" : " 17557771 Please transfer the student to a flexible schedule. At his request, thank you"
+    }, {
+      "text" : "Flexible schedule"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/changed_schedule",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I can't study with a student, the time has changed"
+    }, {
+      "text" : "Unfortunately, I can no longer study at this time, I need to remove the student"
+    }, {
+      "text" : "Remove the student and add a new teacher for him, since I can no longer study at this day and time"
+    }, {
+      "text" : "due to personal circumstances, I am reducing the hours, I want the student to be transferred to another teacher"
+    }, {
+      "text" : "I will no longer tutor a student because the time is no longer suitable for tutoring."
+    }, {
+      "text" : "A student wants to change his schedule, so add him a new teacher and remove him from my list"
+    }, {
+      "text" : "the student wants lessons to take place at a different time and day, but I cannot work at the requested time, delete the schedule with the student and transfer it to another teacher"
+    }, {
+      "text" : "remove the student from my list, he can no longer study during the current hours, the schedule is changing, he needs a new teacher"
+    }, {
+      "text" : "the student informed me that he is forced to change the regular lesson times, but I cannot open the time that the student requested, please find a new teacher and delete the schedule from me"
+    }, {
+      "text" : "I offered the student a different time, it didn’t suit him, how can I transfer the student to another teacher"
+    }, {
+      "text" : " My plans and schedule have changed, can I reject from student or transfer him?"
+    }, {
+      "text" : "find a new teacher for the student, I can no longer study with him according to the old schedule"
+    }, {
+      "text" : "student agrees to new teacher, my time is no longer relevant"
+    }, {
+      "text" : "transfer the student to another, he needs a different schedule"
+    }, {
+      "text" : " I’m moving to another country and my time zone has changed, so I can’t study with Victor. We agreed with teacher Olga that the student would continue studying with her. Hand the student over to the teacher."
+    }, {
+      "text" : "My schedule has changed, I need to make adjustments for my students"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_past_status",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Hi there! Could you please change the status of the lesson of Svеtlana Dvornikova ID 3427359 today at 12:00 from done since I made a mistake to Failed by the student because she is not in class?"
+    }, {
+      "text" : "Today at 16-00 there was a lesson on how to choose a status"
+    }, {
+      "text" : "For some reason I can’t mark the status of the lesson for 12.08 with 3072730."
+    }, {
+      "text" : "Student ID/mail/phone number: 10831483  What needs to be done: set the lesson status (lesson completed successfully).  Lesson date/time: Monday 10.10 17:00 Moscow time."
+    }, {
+      "text" : "Yesterday there was a lesson on how to mark a status"
+    }, {
+      "text" : "The student did not show up for class, but the lesson time has already passed, which button to press to receive payment?"
+    }, {
+      "text" : "I need to mark a lesson on how to do this"
+    }, {
+      "text" : "The lesson with the student was successfully completed today, please tell me, can I mark the lesson as “Successful”?"
+    }, {
+      "text" : "What to do if I taught a lesson less than the allotted time, since the student urgently needed to leave the lesson, I can mark it as successful"
+    }, {
+      "text" : "I want to receive payment because a student did not show up for class this morning, how do I mark the status?"
+    }, {
+      "text" : " we had a lesson, but there was no status form, mark the lesson status"
+    }, {
+      "text" : "I’m no longer near the computer, please help me mark the status of the lesson with U ID 987899889"
+    }, {
+      "text" : "how to mark the status of the lesson we had."
+    }, {
+      "text" : "can I mark the lesson status from my phone??"
+    }, {
+      "text" : "the lesson took place, but the reward was not awarded"
+    }, {
+      "text" : "I was late for class and the student didn’t wait for me. Which status should I choose? I was waiting for it?"
+    }, {
+      "text" : "Update the status of a completed lesson"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_started_move",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "The student went to class now, but reported that he had a force majeure situation, how to reschedule the lesson that has started"
+    }, {
+      "text" : "The lesson has already started, the student and I agreed to reschedule it for tomorrow at 6 pm"
+    }, {
+      "text" : "Help reschedule the current lesson, which is currently going on with student 1936754, to Sunday at 8 Moscow time"
+    }, {
+      "text" : "I need to reschedule a lesson that has already started to another time in agreement with the student"
+    }, {
+      "text" : "I agreed with the student to reschedule the lesson to Monday, which is now in progress due to personal circumstances, help"
+    }, {
+      "text" : "What to do if the lesson has already started, and the student and I, by mutual agreement, decided to study on a different day and time"
+    }, {
+      "text" : "Now there were technical problems during the lesson, we agreed to take the lesson in the evening at 18 Moscow time"
+    }, {
+      "text" : "Due to problems in the lesson, we agreed with the student to study on Friday, so we need to reschedule this lesson"
+    }, {
+      "text" : "I want to reschedule a lesson that has started and is already going on to another day, but it doesn’t work, the student gave the go-ahead, put the lesson on another day and time"
+    }, {
+      "text" : "I was waiting for the student at the lesson, but he wrote that he would not be able to come in and we agreed on a transfer. Help me please"
+    }, {
+      "text" : "The lesson is already in progress, but we agreed to reschedule it, is that possible?"
+    }, {
+      "text" : "I can’t be in class, the student agrees to reschedule it. how to do this if the lesson is already in progress?"
+    }, {
+      "text" : "There was a glitch, the lesson is not loading, both for me and the student, can we reschedule it now, since it is already in progress?"
+    }, {
+      "text" : "I can’t make changes to reschedule a lesson that is already in progress, what should I do? The student and I agreed to move the lesson to tomorrow morning"
+    }, {
+      "text" : "The student asked to reschedule the lesson in advance, but the time was only agreed upon now. The lesson has already started, how can I reschedule it?"
+    }, {
+      "text" : "Reschedule the lesson in progress"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_mark_auto",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Why did a compensation lesson appear after the status of missed P?"
+    }, {
+      "text" : "How does automatic lesson marking work?"
+    }, {
+      "text" : "After how many hours and time does the system mark the lesson status?"
+    }, {
+      "text" : "I was in class, but my pass appeared with a student, why did this happen?"
+    }, {
+      "text" : "The system incorrectly marked the status of a lesson with a student on Saturday"
+    }, {
+      "text" : "Why does the platform incorrectly mark the status of a lesson that was with a student and successfully conducted on Skype?"
+    }, {
+      "text" : "I didn’t have time to mark the lesson, why did you set the status was not marked on time by the teacher, the student and I agreed to reschedule this lesson"
+    }, {
+      "text" : "The student said at the last lesson that he would not be able to attend the next lesson, I told him that he needed to cancel himself from his personal account, why did a notification appear that I missed the lesson"
+    }, {
+      "text" : "I marked the status in the mobile application, but today a compensation appeared; the Teachers Attendes indicator decreased due to my alleged absence, but I marked the status"
+    }, {
+      "text" : "Why can't I mark the status of a lesson?"
+    }, {
+      "text" : "The lesson is over, but there is no status form, can you check?"
+    }, {
+      "text" : "In what cases does lesson auto-marking work?"
+    }, {
+      "text" : "If we completed the lesson, will the system itself mark it as “successful”?"
+    }, {
+      "text" : " Why is the status \"Missed by teacher\" already marked on the main page??"
+    }, {
+      "text" : "I had a successful lesson with Natalya yesterday, why does it say that I missed it? The auto-mark should have worked. How it works?"
+    }, {
+      "text" : "How does the automatic status update work?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_choose_status",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Yesterday I had a lesson with student 15481107 on discord, please pay me for the lesson."
+    }, {
+      "text" : "My new student Christina ID 16398608 wrote that yesterday morning she rescheduled the lesson scheduled for 3.08 to 21:00. However, yesterday I had this lesson on my schedule all day, and there were no requests to cancel or reschedule. I started for class, there was no student."
+    }, {
+      "text" : "Student ID 3895296. I connected to the lesson, the student connected three minutes later and said that she needed to leave, but she could not find my number in her contacts. What lesson status should I set?"
+    }, {
+      "text" : "At the beginning of the lesson, it turned out that the child was sick and would not come to the lesson. How to cancel the lesson?"
+    }, {
+      "text" : "How to mark the status of a lesson? There were technical problems on the student’s part (technical support found out that the student’s Internet was lost). The lesson was only 10 minutes. Student Anton 5263115."
+    }, {
+      "text" : "Yesterday it was not possible to teach a lesson due to technical problems on my part. How can I mark a lesson?"
+    }, {
+      "text" : "there was a lesson with a student, he was 10 minutes late, and stayed in the lesson for about 20 minutes and he needed to make a call for work, he said that he could come back, I waited until the last minute, the system writes that the lesson is shorter than 50 minutes (36 minutes), Can I mark the lesson as completed or are such lessons considered absenteeism?  "
+    }, {
+      "text" : "I need to leave urgently, they are picking me up in an ambulance, the student agrees to the cancellation, what status should I mark?"
+    }, {
+      "text" : "By mutual agreement, we agreed with the student to cancel the lesson. How to choose a status?"
+    }, {
+      "text" : "We agreed to reschedule the lesson, what status should we choose?"
+    }, {
+      "text" : "I agreed to reschedule the lesson, how can I correctly indicate the initiator of the transfer?"
+    }, {
+      "text" : "What status should I use to mark a lesson if a student came in for 5 minutes and then left and did not return?"
+    }, {
+      "text" : "We only had half of the lesson. Can I mark the status as \"Successful\"?"
+    }, {
+      "text" : "I can't be in class. How can I cancel a lesson and will it affect my performance?"
+    }, {
+      "text" : "What status to set if there were failures on the platform. The student and I tried to do our best, it's not our fault."
+    }, {
+      "text" : "Which status to choose when..."
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/vacation_teacher",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I want to report that I lost my voice since yesterday and that is the reason there won't be any hours worked under my ID"
+    }, {
+      "text" : "Good day I am not feeling well and I need to cancel my lessons tomorrow. Will it effect my statues?"
+    }, {
+      "text" : "Due to health reasons, can I take a mini-vacation from 12-15 inclusive?"
+    }, {
+      "text" : "Need a break this evening, the reason is being busy at my main place of work"
+    }, {
+      "text" : "I need a break from November 01-13."
+    }, {
+      "text" : "I need an urgent vacation"
+    }, {
+      "text" : "at the beginning of September I want to go on vacation for 2 weeks"
+    }, {
+      "text" : "Due to personal circumstances, I won’t be able to work for a whole month, help me arrange a break"
+    }, {
+      "text" : "Due to family problems, I want to go on vacation"
+    }, {
+      "text" : "I need to take a break from work, I feel very bad"
+    }, {
+      "text" : "There was an accident, I need to rest from tomorrow until Friday."
+    }, {
+      "text" : "Turned off the lights, cancel classes"
+    }, {
+      "text" : "Can I request a long break?"
+    }, {
+      "text" : "I need maternity leave, how can I take a break?"
+    }, {
+      "text" : "I'm going back to university. I need a break for 2 months and a reduction in the number of students"
+    }, {
+      "text" : "I won’t be able to have lessons today, I’m sick"
+    }, {
+      "text" : "What is the maximum period of vacation I can take?"
+    }, {
+      "text" : "Teacher breaks"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/vacation_teacher_issue_move",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I am now on vacation in another region of the country, away from my workplace. My vacation is until August 12 (Friday), I would like to extend it until the 17th inclusive, that is, on the 18th I will already be able to go to work and conduct classes, because My family and I will not be able to return earlier. Could you help me with this? Thank you!"
+    }, {
+      "text" : "I ask you to extend the break until October 26"
+    }, {
+      "text" : "extend my vacation until Friday too"
+    }, {
+      "text" : "extend my vacation for two more days"
+    }, {
+      "text" : "I would like to ask you to extend my forced leave until the end of October."
+    }, {
+      "text" : "extend the break until 10/30/2022 I’m on a break for health reasons!"
+    }, {
+      "text" : "I ask you to extend your vacation until October 14 with a return to work on October 15 (Saturday)"
+    }, {
+      "text" : "I ask you to extend the break for health reasons until the end of the week (09.10). I still can’t sit for long :("
+    }, {
+      "text" : "I would like to extend my vacation for another month"
+    }, {
+      "text" : "I need to get out of my break and start working"
+    }, {
+      "text" : " cancel my vacation, I want to leave earlier"
+    }, {
+      "text" : "I solved all my questions, let's shorten the break"
+    }, {
+      "text" : "ready to continue teaching students, bring back lessons"
+    }, {
+      "text" : "I need to extend my break for another month"
+    }, {
+      "text" : "My plans have changed, I can come back earlier, can you change the break?"
+    }, {
+      "text" : "Change the dates of the break, cancel the break"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/vacation_teacher_issue_replace",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I'm on vacation now, but as the managers told me, student ID 11661274 Alexander's lessons have not been deleted."
+    }, {
+      "text" : "I started a break, but the lessons remain, remove the student and find a replacement for him"
+    }, {
+      "text" : "I’m currently on a break from work, but students write and ask when a temporary teacher will be selected, you can contact"
+    }, {
+      "text" : "I have a break from next week, but why haven’t the lessons been canceled and the students haven’t been warned yet? How many hours before will lessons be deleted?"
+    }, {
+      "text" : "I'm going on vacation tomorrow, but classes are still on schedule, you can cancel them, and student 19823746 needs a substitute"
+    }, {
+      "text" : "How long will the lessons be on my schedule, I’m worried that they won’t be deleted and my performance will decrease, please tell me, will all the students be contacted?"
+    }, {
+      "text" : "Tell me, should I find a temporary teacher myself or will the school do it? Also, help remove classes"
+    }, {
+      "text" : "I’m on vacation, but for some reason the lessons with student 90287364 were not deleted; to replace them, you need to check with the student himself whether he wants"
+    }, {
+      "text" : "I'm going on vacation for the whole summer, will classes be canceled soon or will they be removed when the vacation starts?"
+    }, {
+      "text" : " I took a break, but the lessons were not deleted, why?"
+    }, {
+      "text" : "my students need help finding a substitute teacher"
+    }, {
+      "text" : "Please clarify, will substitute teacher be selected for the student?"
+    }, {
+      "text" : "the student doesn’t want a break like mine, he needs another teacher during my break"
+    }, {
+      "text" : "delete lessons with student ID0999090 and help him find a substitute teacher"
+    }, {
+      "text" : "I will have a vacation in June, find substitutes for students"
+    }, {
+      "text" : "Some lessons are still scheduled, student needs a substitute teacher"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/vacation_student_normal",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : " ID 24562170 it is necessary to temporarily suspend training from 04/01/2024 to 05/06/2024 inclusive. Reason: shift, no opportunity to work there"
+    }, {
+      "text" : "Please send my student (15413127) on vacation before April 12"
+    }, {
+      "text" : "please send student ID 22539111 on vacation from April 2 to April 14, classes will resume on April 15 according to the schedule, agreed with the RU, thank you"
+    }, {
+      "text" : " you need to send U12426248 on vacation for 1 day. 04/04/2024"
+    }, {
+      "text" : "send student 23630315 to a break until the end of the week"
+    }, {
+      "text" : "I ask 23096487 to be sent on vacation until June 1 from April 13"
+    }, {
+      "text" : "I would like to know how to send a student on vacation"
+    }, {
+      "text" : "It’s not possible to send the student on vacation from today, please give the student ID 34902531 a vacation from April 4 - 14"
+    }, {
+      "text" : " Mom S asked for a vacation for them from April 8-15 inclusive since Olya is on vacation 3990261"
+    }, {
+      "text" : "The student asked to be sent on vacation for 2 weeks. Please mark the status to free up my schedule for these days. ID30772232"
+    }, {
+      "text" : "Can you please set S 23649606's vacation for two weeks (until approximately April 19)?"
+    }, {
+      "text" : " Could you please send student Elizaveta 11364837 on vacation from April 8th to April 21st. Vacation is needed because... the student does not want to study with a substitute teacher"
+    }, {
+      "text" : "Please give student Gordey ID 18881116 a break from today (04/06) to 04/15/202024 at the request of a parent"
+    }, {
+      "text" : "22570350 please send me on vacation for one day tomorrow 7.04"
+    }, {
+      "text" : "My student needs a month's vacation. How can I send him a break?"
+    }, {
+      "text" : "How to send a student on a break?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/vacation_zero_balance",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Please help me send a student with a zero balance on vacation until April 15th. ID 22605557. Thanks in advance!"
+    }, {
+      "text" : "student 35965252 is going on vacation until June 17, I can’t send it myself because my balance is 0"
+    }, {
+      "text" : "I can’t assign leave to a student because the balance is 0. Please set vacation from April 12 to 14. Afterwards the student will pay for a new package. ID 34647684"
+    }, {
+      "text" : "It is necessary to send student 21022568 on vacation from 04/09 to 04/21. The student’s mother asked, but she has a zero balance, so I can’t. Thank you"
+    }, {
+      "text" : "Parents of student 23760980 ask to be sent on a break, but they have 0 on their balance, what can be done in this case?"
+    }, {
+      "text" : "student 5485608 asks to be sent on vacation from April 17 to April 21 inclusive for family reasons. I can't do this because... he is on the waiting list for payment."
+    }, {
+      "text" : "19851607 I ask you to send this student on leave for 21 days due to the heavy workload at his work. A student asked me to do this, but I can't because... 0 on balance."
+    }, {
+      "text" : "student Nelly wants to go on vacation (but they have zero balance) but his mother asks him to send it because money may be debited from her"
+    }, {
+      "text" : " Please give the student a vacation from 29-30. Parent's request. I can’t do it myself, her balance is 0"
+    }, {
+      "text" : " It is not possible to send student 5284603 to a break because he has a zero balance. Help send him to a break or cancel the lesson on April 29, because... this was agreed upon via work email with his mother"
+    }, {
+      "text" : "The Student still has a zero balance, but I talked to her parents, she will pay by Wednesday. Can you book a vacation for now? from 24.04 to 30.04 inclusive?"
+    }, {
+      "text" : "give the student ID 15542091 vacation from April 30 to May 13, they have 0 balance, I can’t set it myself, the vacation has been agreed with the student’s parents"
+    }, {
+      "text" : "Please help me send a student with a zero balance on vacation for two weeks - Amilia ID 20746651"
+    }, {
+      "text" : "Send student ID 16414979 on vacation. She hasn't paid for it, she'll pay for it after the holidays"
+    }, {
+      "text" : "The student said that he will suspend classes for a while, he has 0. Can you help me arrange a vacation? I can not"
+    }, {
+      "text" : "My student has a zero balance and I can't send him on a break"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/vacation_student_schedule_removal",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "If a student stops responding to messages and does not show up for class, will he be removed from the schedule?"
+    }, {
+      "text" : "The student has already missed two classes with 0 balance, how long will he have a place in my schedule?"
+    }, {
+      "text" : "I want to free up space because... students miss lessons, constantly reschedule and do not respond to messages, student 45519673"
+    }, {
+      "text" : "How long will a student be on a schedule with 0 balance?"
+    }, {
+      "text" : "I have a student on my schedule who stopped studying, but still has lessons, remove it"
+    }, {
+      "text" : "a student wants to go on leave for an indefinite period, will he be removed from the schedule?"
+    }, {
+      "text" : "How can I remove a student from the schedule due to completion of the course?"
+    }, {
+      "text" : "The parent wrote that he wants a refund and asked to remove the schedule, will the student be removed from my schedule?"
+    }, {
+      "text" : "My student has disappeared, although we are in touch with him and he says that he did not delete the lessons, why was the student removed from my schedule?"
+    }, {
+      "text" : "the student has not already attended 3 lessons, the balance is not replenished, how long will it remain on the schedule?"
+    }, {
+      "text" : "The student has 0 balance, contact him or delete the class schedule"
+    }, {
+      "text" : "remove the student, the balance has not been replenished for 10 days"
+    }, {
+      "text" : "on balance for more than 2 weeks 0. When will the student be removed?"
+    }, {
+      "text" : "If the balance is 0, do I need to cancel the student or will you delete him?"
+    }, {
+      "text" : "The student does not come to 4 lessons in a row. When will it be removed?"
+    }, {
+      "text" : "When will the student be removed from my schedule?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/vacation_student_extend",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "student Parvin 23219145 has a vacation planned for April 16-17. It needs to be extended until the 18th inclusive. Please tell me how to do this. I can't figure it out myself"
+    }, {
+      "text" : "22387230 took a break with me until 10.04, but today the parent wrote that the student had a competition and agreed to continue from 27.04"
+    }, {
+      "text" : "Please extend the break 3480606 until next Tuesday"
+    }, {
+      "text" : "student 37835579 asks to extend her vacation until the end of April, until the 30th"
+    }, {
+      "text" : "Student 10632721 asked to extend her vacation until May 3, I technically cannot do this, can you help me?"
+    }, {
+      "text" : "extend the student's vacation until April 26 please 21478114"
+    }, {
+      "text" : "the student asked to extend his vacation until Wednesday 21478114. He and I do not have the opportunity to do this now."
+    }, {
+      "text" : "The parents of student Ilya 19631436 took leave from 02.05 to 06.05. They are asking to increase the duration of vacation from 30.04 to 06.05 (correspondence on Satsap). Please help."
+    }, {
+      "text" : "please extend the student's vacation until May 15 22465879, the student's mother asked to extend"
+    }, {
+      "text" : "You can extend the vacation for student Egor ID 14785427 English, individual until May 13 inclusive, since he is leaving."
+    }, {
+      "text" : "Could you extend the leave of student 13347462 until Friday 05/03?"
+    }, {
+      "text" : "Student 18923109 Georgy asked to extend his vacation until the end of next week. Help me please."
+    }, {
+      "text" : "Could you extend the leave for student 11817906 until May 31 due to exams?"
+    }, {
+      "text" : "Bogdan 21790626 asked to extend his vacation for another week. Those. I'll be studying next Tuesday. Can you extend his vacation?"
+    }, {
+      "text" : "The student reported that he was still on a business trip for a week. Please extend the student's vacation"
+    }, {
+      "text" : "Extending a student's break"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/intro_lesson_apply",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Father of student ID 16122680 wants his second son for a trial lesson"
+    }, {
+      "text" : "I want to sign up for a trial lesson."
+    }, {
+      "text" : "how to apply for a free math lesson"
+    }, {
+      "text" : "mom 15492886 wants to sign up for a trial lesson. She asks to be contacted."
+    }, {
+      "text" : "I have my “personal” student who wants to study English with me on the school platform, but she lives in Switzerland. How can she take a trial lesson?"
+    }, {
+      "text" : "The parent asks for the school number where you can sign up for a lesson."
+    }, {
+      "text" : "And for new students there is also the opportunity to enroll in a university"
+    }, {
+      "text" : "I have a student, Angelina, ID 12931731. I would also like to sign up for an introductory lesson in mathematics."
+    }, {
+      "text" : "please tell me the phone number by which my friends can enroll in our school."
+    }, {
+      "text" : "My student 10762732 wants to bring his 13-year-old daughter (7th grade) to study English at our school. How to sign up for an introductory lesson"
+    }, {
+      "text" : "How does the process of registering and starting school work?"
+    }, {
+      "text" : "how can my friend take a trial lesson at school?"
+    }, {
+      "text" : " they want to take an introductory lesson, is this still possible?"
+    }, {
+      "text" : "their friend paid for the lessons and there was no introductory lesson on how to sign up correctly"
+    }, {
+      "text" : "I want to prepare for IELTS, how do I sign up for a trial lesson?"
+    }, {
+      "text" : "How to set up a trial lesson?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/intro_lesson_info",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "A new student has been appointed, I need information about him. ID ID 13045513"
+    }, {
+      "text" : "give information on student Vyacheslav ID 16195485. What level and course?  "
+    }, {
+      "text" : "I would like more information about this student 3968460  "
+    }, {
+      "text" : "How to view information about a student"
+    }, {
+      "text" : "The student appears in the schedule, but is not in the list of students. How can I view information about a student? I can't see his profile"
+    }, {
+      "text" : "I wanted to see information about U, but I can’t see his profile and I don’t even have his name."
+    }, {
+      "text" : "How to see whether a corporate student is or not?"
+    }, {
+      "text" : "I only teach Premium, but they added a student to me without the Premium mark. Can they add regular students to me? How can I watch premium student or not? What course is he taking?"
+    }, {
+      "text" : "They added U, but I can’t see the phone number. Is this some kind of glitch? How to view information on U, I need to contact you before the first lesson."
+    }, {
+      "text" : "I wanted to see the student’s lesson history, but I don’t have him in the list of students and his profile is inaccessible. What to do? I need information for a certificate."
+    }, {
+      "text" : " I need to reschedule a lesson, but I can’t find contact information for U. How can I view them? I only have asterisks instead of phone number and email."
+    }, {
+      "text" : "added a student to the schedule, but his profile is not displayed"
+    }, {
+      "text" : " where is the student profile?"
+    }, {
+      "text" : "I don't see any information where I can find information about the student"
+    }, {
+      "text" : "I have a lesson with a student in 30 minutes, why can’t I see the student’s information?"
+    }, {
+      "text" : "Student information"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/intro_lesson_no_report",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I don’t see a report on VU ID 16293531 and 10636432?"
+    }, {
+      "text" : "What to do if there is no report on the VU "
+    }, {
+      "text" : "I wanted to prepare for the lesson, but I can’t find information about the introductory lesson. Can you give me information on U?"
+    }, {
+      "text" : "I added a student, but nothing is indicated in the goals and I don’t see the results of the introductory lesson. Tell me what to do, please. What material to take for the student?"
+    }, {
+      "text" : "Colleagues, please clarify why U doesn’t have a methodologist’s report? Didn't he go through it? What to do in such cases?"
+    }, {
+      "text" : "The level of the student is unclear; there is no information on him. I wanted to look at his profile, but it was empty. Do I need to determine it myself in the first lesson?"
+    }, {
+      "text" : "For the umpteenth time, a student has been added without any information about him. No level, no course! How can this be? Are introductory lessons no longer available? What should I do with them?"
+    }, {
+      "text" : "You can provide information on the course and student level. For some reason, information on it is not displayed, I can’t look it up."
+    }, {
+      "text" : "I don’t have information about the student, what is his level?"
+    }, {
+      "text" : "what level is the student, I don’t have an introductory lesson report"
+    }, {
+      "text" : "please help me which course was recommended to the student during the introductory lesson"
+    }, {
+      "text" : "The IL report is not displayed or is incomplete, could you tell me the recommendations for the student?"
+    }, {
+      "text" : " I'm preparing for the lesson, but there is no report for the introductory lesson. what recommendations would you give?"
+    }, {
+      "text" : "Should I give my student an Aloha lesson? I don’t see what level the student was assigned during the introductory lesson"
+    }, {
+      "text" : "What topic should I take with my student? the report is empty"
+    }, {
+      "text" : "No report on the trial lesson"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/student_enrollment",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "“Some of my students have gone on vacation and I have open hours, but they will all be back at the end of August. I have a window popped up to recruit new students, but I don’t want to fill up this time. What should I do?"
+    }, {
+      "text" : "“Starting September, I would like to change my schedule and increase open hours, how does the transition to the new schedule happen?"
+    }, {
+      "text" : "Am I only open to Primary students for enrollment at the moment?"
+    }, {
+      "text" : "I had a break from teaching due to Russian aggression in Ukraine. I was allowed to open a small number of hours. I opened it for 4 hours and nothing happens."
+    }, {
+      "text" : "I would like to open the set, but on those days and times there are no yellow circles."
+    }, {
+      "text" : "How to manage student enrollment?"
+    }, {
+      "text" : "I want to open a set, but only for replacement students. How to do it?"
+    }, {
+      "text" : "They added a student to me, with whom I studied for a long time, but my enrollment of new students is closed. Why are lessons assigned? I cannot accept more students than I have now. How does it work, what students are added during closed enrollment? Where should I click to prevent this from happening again?"
+    }, {
+      "text" : "How can I indicate in my schedule that I only want to teach exam preparation classes? I only need to leave this checkbox, right?"
+    }, {
+      "text" : "I teach mathematics and Russian, but temporarily I want to make sure that only mathematics lessons are added. How can I do it? Can I change this in my personal account?"
+    }, {
+      "text" : "Why don't my open hours show up even though I have an open set. Did I do something wrong? How can I open the time so that students can see it and join me?"
+    }, {
+      "text" : " I opened the enrollment, but for a very long time they didn’t place anyone at all, how are things going with the students now? What watches are in demand now?"
+    }, {
+      "text" : "Is it possible for me to assign new students, since the schedule has a sufficient number of open hours, but for some reason there are few students and no new students have been assigned for a long time?"
+    }, {
+      "text" : "Please tell me when to expect new students to be added?"
+    }, {
+      "text" : "Open a set for me only for IELTS"
+    }, {
+      "text" : "Managing new admissions"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/student_enrollment_status",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to check the recruitment status?"
+    }, {
+      "text" : "Am I closed?"
+    }, {
+      "text" : "No new students are being added to me, look, am I open for enrollment?"
+    }, {
+      "text" : "I have closed the intake of new students, can you check this?"
+    }, {
+      "text" : "How can I check if my student intake is open?"
+    }, {
+      "text" : "Will students be able to be added to me if enrollment is closed?"
+    }, {
+      "text" : "I would like to clarify whether my enrollment of students is open and whether there are any restrictions. Today is the first day after a long break and I have opened free hours in my schedule"
+    }, {
+      "text" : "“Tell me, if the enrollment of new students is closed, can they appoint replacements?"
+    }, {
+      "text" : "Tell me what directions are open to me at the moment? Because the last one I opened was Roblox, but still there is not a single new student on it :( "
+    }, {
+      "text" : "“Can I check with you about enrollment restrictions?"
+    }, {
+      "text" : "Please tell me how many new students are selected on average?"
+    }, {
+      "text" : "I would like the recruitment of students to be more active, I haven’t been able to get a bonus for three months now, it’s a shame"
+    }, {
+      "text" : " I have empty slots at 18:00 on Monday and Friday and at 14:00 on Sunday. Maybe you can assign me a student? )"
+    }, {
+      "text" : "I’ve been in the group lessons department for six months now, I still haven’t been assigned a single group, tell me what’s the reason?"
+    }, {
+      "text" : "I haven't added any new students for a month now. My enrollment is closed? How can I check this?"
+    }, {
+      "text" : "Checking the status of new admissions"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/teacher_change",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "they won’t study anymore, mom said they want another teacher"
+    }, {
+      "text" : "student Anton 15368114, wants to change teacher, he needs a teacher with a flexible schedule"
+    }, {
+      "text" : "RU said that they are changing the schedule on an ongoing basis, I cannot study at the requested time, remove the student, they need a new teacher"
+    }, {
+      "text" : "I can no longer study with U because... he doesn’t like my pronunciation and decided to change teachers"
+    }, {
+      "text" : "The student has transferred to a new course that I do not teach, select a new teacher for him"
+    }, {
+      "text" : "Remove the schedule with the student, because... he has moved to a new level, which I cannot teach according to school rules, so he needs a teacher above my level."
+    }, {
+      "text" : "I want to remove the schedule with a student, they moved, so the parent said that the current schedule is not suitable, I cannot open new slots due to personal circumstances, can you make sure that the students find a new teacher and he will not affect me"
+    }, {
+      "text" : "The parent said that he is going on a break, and after that he will study with another teacher whom the student wants, but the lessons are still on my schedule, can you help"
+    }, {
+      "text" : "The parent asks to be contacted and sent a list of teachers according to the current schedule, they need a new teacher, since they moved to a class that I do not teach"
+    }, {
+      "text" : "Student needs a new teacher because I can no longer teach on his schedule."
+    }, {
+      "text" : "Find a new teacher for the student, it seems to me that this student has special needs"
+    }, {
+      "text" : "The student has completed 5th grade, I am teaching teenagers in exams, so change the teacher for the student"
+    }, {
+      "text" : " I want to reject a student, can you find another teacher for the student?"
+    }, {
+      "text" : "I want to transfer a student to another teacher, can you help the student change teachers?"
+    }, {
+      "text" : "A student wants to change teachers, how can he do this?"
+    }, {
+      "text" : "Changing teachers for a student"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/parents_feedback",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "My student  Sergei has missed two of our lessons. Could he be contacted. Could I get some feedback after he's been contacted."
+    }, {
+      "text" : "Tell me, if in preschool classes once a month the parent is offered one lesson with feedback from the teacher?"
+    }, {
+      "text" : "if a parent could not come to lesson 8, where slides with the report are shown, how can these pictures be opened in the next lesson?"
+    }, {
+      "text" : "I have a question about the Feedback for student parents."
+    }, {
+      "text" : "Please tell me who I can contact about the report for parents"
+    }, {
+      "text" : "I have a question about the Feedback"
+    }, {
+      "text" : "Is it possible to give feedback for the next lesson: Or if you don’t mark anything in the report, the slides will also pop up in the next lesson?\\"
+    }, {
+      "text" : "Can you remind me how parents can turn off Parent Feedback in their personal account?"
+    }, {
+      "text" : "Tell me, if a parent writes with a request to hold a meeting in a week, what to do? After all, technically the slides will no longer be displayed in class."
+    }, {
+      "text" : "My students Stepan ID10438787 and Anastasia ID 10820396 have no OS with their parents at all. Maybe they have it turned off? How to find out?"
+    }, {
+      "text" : "Please tell me why the student was sent a blank report with feedback?"
+    }, {
+      "text" : "I forgot to fill out the feedback report, what should I do?"
+    }, {
+      "text" : " Can I change the comment in the report?"
+    }, {
+      "text" : "Why was it written that the report is due on the 28th, but it is already overdue?"
+    }, {
+      "text" : " How often do students need to submit a feedback report?"
+    }, {
+      "text" : " What happens if I don't fill out the report?"
+    }, {
+      "text" : "Feedback to parents"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/certificate",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Tell me, if a student and I have completed all the topics except the final one for the course, and now he decides to take a break, can he receive a certificate for the course he has completed?"
+    }, {
+      "text" : "Please submit the form to complete the level completion certificate. Thank you."
+    }, {
+      "text" : "I need to issue a certificate for a student who has completed a level, how to do this?"
+    }, {
+      "text" : "with U 12302253 passed the Primary Beginner level. Please write a link to the certificate."
+    }, {
+      "text" : "Please tell me how to order a certificate of completion of the course for a student?"
+    }, {
+      "text" : "send the form to submit the certificate"
+    }, {
+      "text" : "I would like to apply for a certificate of completion of the pre intermediate course passed the exam"
+    }, {
+      "text" : "Please send me the form that needs to be filled out when the student completes the level?"
+    }, {
+      "text" : "my student wants to get a certificate after passing Intermediate, please tell me if certificates are required after this level?"
+    }, {
+      "text" : "Tell me, where can I get the form to fill out to receive a certificate for completing the level?"
+    }, {
+      "text" : "My student took an exam, she wants to get a certificate. Please send me a link to the form I need to fill out for her certificate."
+    }, {
+      "text" : "S 14575265 completes the course. Where can I get a certificate of completion?"
+    }, {
+      "text" : " ID 13839218 is asking about an elementary level certificate. Can you please inform me what to tell him?"
+    }, {
+      "text" : "where to fill out these certificates and how?"
+    }, {
+      "text" : "I need to issue a certificate for an exam for a student."
+    }, {
+      "text" : "How can students obtain a certificate?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_transfer",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "The student has completed studying the current direction and is moving on to the next course. Please convert the current service into a new one. The transition has been agreed with the parents.  "
+    }, {
+      "text" : "You need to divide the lessons between two students"
+    }, {
+      "text" : "U will no longer study, can I transfer the lessons to his brother?"
+    }, {
+      "text" : "When paying for a student's classes, we accidentally paid for my dad's classes; they are studying from the same account. Is it possible to transfer these classes to the student’s balance or borrow from that paid account? (Since dad does not plan to continue classes yet) Student ID 5902599"
+    }, {
+      "text" : "The father of student Maria ID171907 asked to transfer one lesson from the profile of his son Matvey ID 171902 to her account, because I can't top up my account today. He promised to refill it by the end of the week. Could you help with transferring one lesson to Maria's account? (She should have a lesson today at 17.00)"
+    }, {
+      "text" : "transfer all student payments from account 11553016 to account 2688388? The student wants to study on account 2688388"
+    }, {
+      "text" : "Please tell me if math classes can be converted into English classes. The student will still have classes after May."
+    }, {
+      "text" : "The student asks if the lessons remaining on the balance can be transferred to the father’s balance (he also studies at Skyeng)"
+    }, {
+      "text" : " My U Olga Titova ENGLISH  ID 1795520 asks if her lessons can be translated to her daughter? Tell me, please, can you contact her and discuss this?”"
+    }, {
+      "text" : "12811665 has reached his limit and would like to transfer some classes from his dad's account. Is this possible?"
+    }, {
+      "text" : "12475390 Daniil, Daniil’s mother asks that the money from physics be transferred to English."
+    }, {
+      "text" : "A parent asks to transfer lessons from mathematics to physics, you need advice on converting lessons, will it be possible to transfer all the lessons?"
+    }, {
+      "text" : "What is conversion and can a parent transfer lessons from his account to his child’s account?"
+    }, {
+      "text" : " The parent transferred lessons from another subject, but why is the balance displayed as 0?"
+    }, {
+      "text" : " I need to transfer lessons from the standard plan to the premium plan, the student said that he will continue to study with me using the premium plan, help, he can’t do it himself"
+    }, {
+      "text" : "Transferring lessons"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/referral",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Alice 14152823 wants to bring a new student to school, but she doesn’t figure out what to do. Some link maybe?"
+    }, {
+      "text" : "I want to invite a student to school. What link can I send?"
+    }, {
+      "text" : "I want to bring a student to school. I don't know exactly how to do this"
+    }, {
+      "text" : "Tell me, if I want to bring my husband to school to study English, what will the cost of the lessons be for him?"
+    }, {
+      "text" : "Can I invite a student using my personal code, and at the same time the student’s parents can use the “Invite a Friend” code?"
+    }, {
+      "text" : "Tell me, where can I find out my code, which the student can use for the first payment so that I can get a bonus?"
+    }, {
+      "text" : "Please tell me, is there a program for students similar to the program for teachers: bring a student and get a bonus? Because another student wants to come to the platform on the recommendation of my student and I don’t know whether I should invite them or whether the student who recommended me can invite them?"
+    }, {
+      "text" : "I wanted to invite a schoolgirl using my link to our platform"
+    }, {
+      "text" : "I have a question regarding the referral program. If I want to invite a teacher to a school using a personal link, how will I know whether enrollment is open or not?"
+    }, {
+      "text" : "I want to invite a student via a link. A student is ready to pay for 12 lessons, how to do this?"
+    }, {
+      "text" : "My student Dmitry wants to enroll his daughter in English with me, they went through my personal link at the invitation of the students, but they cannot register"
+    }, {
+      "text" : "where we can invite other students here using a special link"
+    }, {
+      "text" : "I want to invite a student to school. What link can I send?"
+    }, {
+      "text" : " can I invite a student to take a math class and will I get paid for it?"
+    }, {
+      "text" : "With the Refer a Friend program, can they leave a referral link even after purchasing the package?"
+    }, {
+      "text" : "Tell me if a parent of a student asks about lessons for an adult friend. What's the best thing to do? let him use his referral link? or give yours? and will our referral links work for an adult?"
+    }, {
+      "text" : "Student Julia would like her mother-in-law to study with me. Please tell me how this procedure works, my mother-in-law has not yet trained in skaeng. And will Yulie get some kind of bonus for bringing a new student to school?"
+    }, {
+      "text" : "where can I find out the terms of the referral program for students? The student is wondering if she will receive any bonuses if she invites a friend to school?"
+    }, {
+      "text" : "Can a student \"invite\" her brother and get 2 lessons for free or does this not work with relatives?"
+    }, {
+      "text" : "Is there a referral program for students if they recommend Skyeng to their friends? My student recommended me as a teacher, but we did not agree on schedules, and the girl had already bought the package."
+    }, {
+      "text" : "Referral link"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/balance_topup",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Is it possible to have a payment link sent to a parent’s phone to pay for lessons?"
+    }, {
+      "text" : "Student 15239059 is located in Austria and his parents would like information on how they can pay for the following courses. Where can I find this information?"
+    }, {
+      "text" : "And pay the parent"
+    }, {
+      "text" : "10660344 how can they pay for the next package"
+    }, {
+      "text" : "What should I write to my parent? She wrote that the payment link is not loading for her"
+    }, {
+      "text" : "Please tell me, the student’s mother asks for a link to pay for lessons, is it possible to send this or how can I help her with payment?"
+    }, {
+      "text" : "Mom U ID 10632703 asks for help with paying for classes, asks for the link to be sent to her email"
+    }, {
+      "text" : "Mom 5265018 had a question about how to top up her lesson balance (they have zero). How can they do this? They ask you to send me some link."
+    }, {
+      "text" : "could you please share a link to pay for classes for parents, a parent would like to pay for the following classes, asks for a link"
+    }, {
+      "text" : "The mother of student Timofey ID 11188568 asked to send her a link to replenish the balance of lessons. Could you send me the link and I will forward it to RU?"
+    }, {
+      "text" : " please send me a link on how to pay for classes from home"
+    }, {
+      "text" : "Please send parents of student ID 10024333 a link to pay for classes"
+    }, {
+      "text" : "The student cannot pay for the lesson. asks for a link"
+    }, {
+      "text" : "Mom of one S asked me how to pay for lessons"
+    }, {
+      "text" : " Could you send me a link to pay for lessons, please 🙏. The student’s mother cannot pay in any way."
+    }, {
+      "text" : "Could you contact the mother of student ID 11648376 (Leila). She asked to advise her on methods of paying for classes, because... Today is class, and there are 0 lessons on the balance."
+    }, {
+      "text" : "Can you please contact 3826486. The parent wants to make a payment and asks for a link."
+    }, {
+      "text" : "Refilling the balance"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/promotions",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "The student has been studying for a long time, you can offer him a discount"
+    }, {
+      "text" : "What promotions are currently available at the school?"
+    }, {
+      "text" : "The parent asks to give them the discount promised in the student’s chat, they are ready to top up the balance if the discount is still valid"
+    }, {
+      "text" : "I want to give my discount to my student, please connect, tell me what needs to be done next"
+    }, {
+      "text" : "The student studies at a company discount, is he a corporate student?"
+    }, {
+      "text" : "How can a student get a discount?"
+    }, {
+      "text" : "the student will continue to study only if he is offered a 20% discount"
+    }, {
+      "text" : "How can I share the double lesson discount?"
+    }, {
+      "text" : "Can I give a student my discount on school tuition?"
+    }, {
+      "text" : "the student was promised a discount, but the prices in his personal account did not change"
+    }, {
+      "text" : "The student was informed that he received a letter in the mail with information that he can activate a promotional code, can you tell me what this promotion is?"
+    }, {
+      "text" : "The parent knows that they offer a discount if the student continues to study, can you immediately activate it so that the parent does not wait for a call for several weeks?"
+    }, {
+      "text" : "Give the student a discount so that he can continue his studies, I remember there was such a promotion last year to retain students"
+    }, {
+      "text" : "I received a notification that a promotion is being launched, but I do not fully understand its terms"
+    }, {
+      "text" : "My student and I have been teaching this lesson for a long time and I want to give him my discount. Help me please"
+    }, {
+      "text" : "Discounts and promotions for students"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/installment",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Is there an option for installments for students from Kazakhstan?"
+    }, {
+      "text" : "The student’s mother asks her to call and help with payment in installments Nitjat"
+    }, {
+      "text" : "I have questions about installment plans."
+    }, {
+      "text" : "A girl (schoolgirl) is going to our school. Come. Mom is wondering if there is an installment plan for paying for classes? Thank you."
+    }, {
+      "text" : "student, 11397189, would like to continue her studies, but for financial reasons she cannot. As far as I know, the school offers different options for cooperation, payment in installments or something like that.. Can you give me a hint?"
+    }, {
+      "text" : "what to do if the student completed the lessons on balance, but was written off in installments after a week?"
+    }, {
+      "text" : "24015574 bought the course +1? I received a letter in the mail saying yes, but there are 10 lessons on the balance (not 40), so I’m a little confused."
+    }, {
+      "text" : "The student has three lessons left in total, but from the copying I see that there were 20 lessons and there should be 12 more. I didn't write anything off. Please help me figure it out."
+    }, {
+      "text" : "19139040 student wants to pay later "
+    }, {
+      "text" : "We need to have a lesson today, but the student is debited for tomorrow, how to pay today"
+    }, {
+      "text" : "What is staged payment? Is this an installment plan?"
+    }, {
+      "text" : " What to do if a student cannot pay for the next stage on time, how much time does he have?"
+    }, {
+      "text" : "Does the installment plan apply to all subjects at school?"
+    }, {
+      "text" : "What is a student's bank installment plan?"
+    }, {
+      "text" : " A student's mother asks if she can pay in installments for 16 lessons."
+    }, {
+      "text" : "About instalments"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/contacts",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "The student does not know how to contact"
+    }, {
+      "text" : "  The student's parents won group classes for their child. They don’t know how to contact the school about this.   Student ID 11462494"
+    }, {
+      "text" : "How can I contact one of the marketing executives at Skyenga?"
+    }, {
+      "text" : "Mom called, doesn’t know how to contact managers"
+    }, {
+      "text" : "how to contact managers as a student"
+    }, {
+      "text" : " New student Milana  ID 12551902 asks to be contacted: \"HOW TO CONTACT THE CENTER?\""
+    }, {
+      "text" : " A student asks how to contact managers to cancel a class due to personal circumstances  Please tell me how to do this, thanks in advance"
+    }, {
+      "text" : "How to contact the school? The student asks for your contact information"
+    }, {
+      "text" : "Zoya 331160 does not know how to contact the school"
+    }, {
+      "text" : "the student does not know how to contact a competent person at school"
+    }, {
+      "text" : "Write a phone number where the student can call you"
+    }, {
+      "text" : "How can a student write in support of the school?"
+    }, {
+      "text" : "The student’s mother also asks for a phone number, precisely on this issue, how to contact the school"
+    }, {
+      "text" : "students don't know how to contact you!"
+    }, {
+      "text" : "student 1517763 does not know how to contact the manager"
+    }, {
+      "text" : "The student’s mother asks to contact her about a teacher to prepare for the OGE."
+    }, {
+      "text" : "What number can she call you on? She's urgent!"
+    }, {
+      "text" : "Can students contact you directly?"
+    }, {
+      "text" : "A student wants to personally talk to support about this issue, can you tell me where to go?"
+    }, {
+      "text" : "Who do they need to contact and where can they find the contacts of their personal manager in their personal account?"
+    }, {
+      "text" : "They have some problems, but they don’t know how to call you"
+    }, {
+      "text" : "Student ID 11859588 does not know how to contact managers. Could you tell her how to do this in her personal account?"
+    }, {
+      "text" : "School contact details for students"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/mobile_app",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "is it possible to view the notes we take in class in a mobile application?"
+    }, {
+      "text" : "I have a question about the mobile application"
+    }, {
+      "text" : "can you send me a link here now to download the application?"
+    }, {
+      "text" : "school mobile app?"
+    }, {
+      "text" : "Can I provide a link to the student application and instructions for it?"
+    }, {
+      "text" : "how to use the application as a student"
+    }, {
+      "text" : "Do we have a mobile application from the school where students can learn words? And if so, then where can I find instructions or information to send to parents?"
+    }, {
+      "text" : "And instructions on how to install the skyeng dictionary mobile application"
+    }, {
+      "text" : "And instructions on how to install the skyeng dictionary mobile application"
+    }, {
+      "text" : "My student doesn't know how to install the skyeng app. Is there any tutorial on the platform?"
+    }, {
+      "text" : "The student cannot figure out where to find and how to use the dictionary in the application. He doesn't know much about his phone, but he really wants to try the app if there are detailed instructions. Tell me what the students’ dictionary looks like in the app so I can help her🙏🏻"
+    }, {
+      "text" : "ID 5859387 has questions about using the application. Can you help?"
+    }, {
+      "text" : "Please send instructions on how to use the mobile application to students, or tell me where to find it"
+    }, {
+      "text" : "Please tell me where can I find a FAQ for students on using the Skyeng mobile application? The student wants to figure out where to find a grammar trainer and additional exercises"
+    }, {
+      "text" : "He can't figure out the app on his phone. Who can help him with this?"
+    }, {
+      "text" : "About the mobile app"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/subscription",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "What is a subscription the student asks?"
+    }, {
+      "text" : "Can you tell me how the subscription works?"
+    }, {
+      "text" : "What is the subscription period for the student's parent?"
+    }, {
+      "text" : "Is it possible to transfer the subscription write-off? we have a lesson today"
+    }, {
+      "text" : "The student had a subscription until today inclusive, we conducted a lesson, but the student has 0 balance and I cannot mark the status"
+    }, {
+      "text" : "Is it possible to freeze a subscription?"
+    }, {
+      "text" : "A student wants to switch from a subscription to packages"
+    }, {
+      "text" : "The student does not like the fact that writing off occurs without his permission. Asks for a refund and removal of lessons"
+    }, {
+      "text" : "How can I cancel my subscription?"
+    }, {
+      "text" : "How to replenish a subscription if it ends before the expiration date"
+    }, {
+      "text" : "We want to reschedule the lesson, but the student has a subscription, tell me, the lesson will not be canceled if we move it a week ahead? Subscription ends in 3 days."
+    }, {
+      "text" : "The student had 3 lessons on his balance, but they were written off before the lesson started. For what reason were the lessons written off? Does the student have a subscription?"
+    }, {
+      "text" : "Parents have a question about what to do if they need a certain intensity of lessons, which is not in the window when purchasing a subscription, i.e. the display shows 16 lessons, intensity 4 times a week, but the parent needs 5 times a week"
+    }, {
+      "text" : "A student asks if it is possible to study with a frozen subscription so that it does not expire"
+    }, {
+      "text" : "The student's subscription has expired, but there are 2 lessons left on his balance, we can continue studying, what are these lessons?"
+    }, {
+      "text" : "About subscriptions"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/talking_club_get",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How can students get a conversation club?"
+    }, {
+      "text" : "The student was promised a free account, but the balance is 0 in his personal account"
+    }, {
+      "text" : "how to pay for calls?"
+    }, {
+      "text" : "Where is the conversation club located in your personal account?"
+    }, {
+      "text" : "How to conduct conversations in a mobile application?"
+    }, {
+      "text" : "U paid for the lessons, but they were promised some more conversation lessons. Can you please write what it is or contact U for a consultation? How can they learn these lessons?"
+    }, {
+      "text" : "What is a conversation club? The student said that they had connected them to him, but he did not know how to get there. How to do it?"
+    }, {
+      "text" : "The student said that he wanted to sign up for a speaking club, but he doesn’t know how to use them, can you tell me?"
+    }, {
+      "text" : "The student said that he is stopping training with me, but wants to continue taking the RC, is this possible? Will they be available?"
+    }, {
+      "text" : "A premium student, but he doesn’t have accrued RC, although they promised unlimited, tell me what’s going on in the clubs?"
+    }, {
+      "text" : "Is it possible to reschedule a conversation that a student has already signed up for?"
+    }, {
+      "text" : "Is it possible to freeze conversation clubs?"
+    }, {
+      "text" : "I want to take speaking clubs, do I need to register as a student?"
+    }, {
+      "text" : "What if a student cannot understand how a conversation club recording works, can you explain to him what it is and what its balance is?"
+    }, {
+      "text" : "what platform are the talks on? the student wants to participate in the conversation club"
+    }, {
+      "text" : "How students can get Speaking club"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/student_get",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "What can teachers do to get new students. We are frightened. We have no new students, and many are leaving, the fees are too high."
+    }, {
+      "text" : "Why don't you add new students to me?"
+    }, {
+      "text" : "I opened the clock, added a video card, but the students were never added as promised"
+    }, {
+      "text" : "No new students have been added for two months"
+    }, {
+      "text" : "Why doesn't the school want to add new students to me, are you doing this on purpose?"
+    }, {
+      "text" : "Give me recommendations on what to do to add new students, my profile is full, I teach a lot of courses, time is open, perhaps my enrollment is closed?"
+    }, {
+      "text" : "Give me new students, half of my exams have passed and half are spent on breaks, I am left without students"
+    }, {
+      "text" : "“Are new students being added at all now or not?"
+    }, {
+      "text" : "Need help recruiting new students!"
+    }, {
+      "text" : "How to open a schedule for the summer so that there are more hours only for the summer months? few students"
+    }, {
+      "text" : "why don't I have new students? I have enough new time open"
+    }, {
+      "text" : "Why do you need a video business card?"
+    }, {
+      "text" : "I’ve been without new students for two months now, my income has dropped, you can give my watch to someone"
+    }, {
+      "text" : "I have an open enrollment? why aren't they adding new students?"
+    }, {
+      "text" : "When I upgraded to the premium plan, were I promised students? Where are they? How can I get new students?"
+    }, {
+      "text" : "How to get new students?"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/rewards_payout",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "“I want to link another card to my account, but I can’t."
+    }, {
+      "text" : "I was previously delayed in the amount on Solar Staff, I changed the payment to the card, but the money still did not arrive. The amount is 4600 "
+    }, {
+      "text" : "How can I change the card number so that the salary comes to a new one?"
+    }, {
+      "text" : "Please tell me how to bandage the card for payments. I linked another card. I don't have any more"
+    }, {
+      "text" : "When will your salary arrive?"
+    }, {
+      "text" : "5 days have already passed since the start of the payment, where is my salary"
+    }, {
+      "text" : "How much will the payment be calculated? I'm already tired of waiting, I need money urgently"
+    }, {
+      "text" : "Where is the salary?  "
+    }, {
+      "text" : "“My card on which my salary is received is expiring. How can I change its details?"
+    }, {
+      "text" : "Where's the salary? Previously, it came every day, but now we have to wait several days."
+    }, {
+      "text" : "Is it possible to send the payment earlier, I need money for family reasons"
+    }, {
+      "text" : "I have not received my salary yet. Please resend it"
+    }, {
+      "text" : "“Please tell me. I moved to the Republic of Kazakhstan. I registered through Solar Staff so that my salary would come to a local bank card in local currency. Before that, I was registered as a self-employed person in the Russian Federation. I was removed from the self-employed status through the “My Tax” application.” Now I will need to register with the tax authorities of the Republic of Kazakhstan as an individual, do I understand correctly?"
+    }, {
+      "text" : "I want to ask, is it possible to receive a payment today or on the 3rd? Contact the accounting department, or whoever does this, and ask to process the payment. I know that according to the rules, the payment will come within 5 days and no one will do anything special. But it so happens that this very week we need finances. And in recent months, salaries have been arriving chaotically. Previously, even though salaries were paid within 5 days, the money always arrived on Monday. On the first day of the week, day after day. And now the payment can come on Thursday, Friday, Wednesday or any other day. There is no system. So, is it possible to apply and receive your payment today or tomorrow?"
+    }, {
+      "text" : "Last time payments were received on time, are there any glitches on the platform? Where's the salary?"
+    }, {
+      "text" : "Payouts"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/rewards_kpi",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "what will affect my kpi?"
+    }, {
+      "text" : "How will missed classes affect my KPI?"
+    }, {
+      "text" : "why is my discipline 98??"
+    }, {
+      "text" : "Why was I given a retention (minus) for a student who was replaced by 2 more teachers after me?"
+    }, {
+      "text" : "What is a rating? What indicators are included in the rating?"
+    }, {
+      "text" : "What is the difference between category A and C?"
+    }, {
+      "text" : "Tell me why a lesson transferred with a student, an old student, affected my 1-4 Lessons Attendance score"
+    }, {
+      "text" : "I don't understand how Teacher Attendance is calculated"
+    }, {
+      "text" : "How to increase Performance"
+    }, {
+      "text" : "How can I influence the fact that a student left for financial reasons, because of this he became lost and affected Retention"
+    }, {
+      "text" : "Why the status was not marked on time affected the Teacher Attendance indicator"
+    }, {
+      "text" : "In any case, no matter how much I persuade a student to stay, he becomes sleepy and lowers my student retention rate, why should I suffer?"
+    }, {
+      "text" : "I want to improve my performance, how can I do this?"
+    }, {
+      "text" : "Does my break affect my performance?"
+    }, {
+      "text" : "Retention is calculated incorrectly"
+    }, {
+      "text" : "KPIs and rating"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/platform_tools_tests",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to send tests to a student?"
+    }, {
+      "text" : "How to delete tests?"
+    }, {
+      "text" : "Are there tests in the mobile application?"
+    }, {
+      "text" : "How to pass tests in MP?"
+    }, {
+      "text" : "Which test should I choose for this student 1235686?"
+    }, {
+      "text" : "How to check tests?"
+    }, {
+      "text" : "Where can a student find tests?"
+    }, {
+      "text" : "How to make practice exam tests and send them to the student?"
+    }, {
+      "text" : "What to do with errors in the test?"
+    }, {
+      "text" : "What is Screening test and how to sign up for it?"
+    }, {
+      "text" : "I sent Y a test, but he doesn't see it. Tell me what the reason is."
+    }, {
+      "text" : "Is it possible to reset answers in a test?"
+    }, {
+      "text" : "The student took the test, but the allotted time ran out. Is it possible to reset the timer?"
+    }, {
+      "text" : "Do I get paid for reviewing tests?"
+    }, {
+      "text" : "The student completed the test, but I can't see it. You can check?"
+    }, {
+      "text" : "Tests"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/platform_tools_dictionary",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How to find a dictionary?"
+    }, {
+      "text" : "Does the mobile application have a dictionary?"
+    }, {
+      "text" : "How to add a word to the dictionary?"
+    }, {
+      "text" : "How to remove a word from the dictionary?"
+    }, {
+      "text" : "the student cannot find the dictionary"
+    }, {
+      "text" : "where can I find a dictionary?"
+    }, {
+      "text" : "how to download words in a dictionary?"
+    }, {
+      "text" : "Is it possible to add your own words to the dictionary?"
+    }, {
+      "text" : "The student does not display words in the dictionary"
+    }, {
+      "text" : "The student’s dictionary does not work, words from previous lessons are not shown"
+    }, {
+      "text" : "How to view lists of words in the dictionary?"
+    }, {
+      "text" : "I want to add an additional meaning to a word in the dictionary. Is this possible?"
+    }, {
+      "text" : "Can I myself see what words the student has in the dictionary?"
+    }, {
+      "text" : "I wanted to add words, but I can't. What to do? Will they not be displayed to the student?"
+    }, {
+      "text" : "How to add words from the lesson catalog to a student’s dictionary for study?"
+    }, {
+      "text" : "Wordlist"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/platform_tools_homework",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "i was wondering if my students take the computer-based IELTS exam can they underline words during it? Or is that only possible for the handwritten version? Thanks!"
+    }, {
+      "text" : "How to send a test to a student as homework?"
+    }, {
+      "text" : "How to submit homework?"
+    }, {
+      "text" : "How do I submit a lesson card as homework?"
+    }, {
+      "text" : "How to check your homework?"
+    }, {
+      "text" : "Where can a student find homework?"
+    }, {
+      "text" : "I want to delete homework that has already been submitted"
+    }, {
+      "text" : "How can I reset an assignment that was sent to a student?"
+    }, {
+      "text" : "How to send a student an assignment in class"
+    }, {
+      "text" : "Homework is not sent"
+    }, {
+      "text" : "How do I submit an assignment after class?"
+    }, {
+      "text" : "How to submit a Progress Test as homework?"
+    }, {
+      "text" : "How can I see what homework has been sent to a student?"
+    }, {
+      "text" : "How to revoke homework?"
+    }, {
+      "text" : "Other activities with homework cards"
+    }, {
+      "text" : "Homework"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/platform_tools_recordings",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Lesson recordings"
+    }, {
+      "text" : "Are lessons recorded?"
+    }, {
+      "text" : "how to listen to a recording of a lesson?"
+    }, {
+      "text" : "is there a video recording of the lesson?"
+    }, {
+      "text" : "Is there video and audio recording of lessons on the platform?"
+    }, {
+      "text" : "What should I do if I taught a lesson not on the platform? Should I record it myself?"
+    }, {
+      "text" : "Tell me, please, where can I watch the recording of the lessons?"
+    }, {
+      "text" : "I wanted to listen to the recording of the lesson from March 14, I myself don’t see it on the platform now."
+    }, {
+      "text" : "Please tell me where I need to post a recording of the lesson I completed?"
+    }, {
+      "text" : "and if a student does not come to a lesson, a recording of the lesson is saved in the student’s personal account?"
+    }, {
+      "text" : "We taught a lesson outside the platform, but forgot to record the lesson. Is there any other way to confirm that the lesson was taught?"
+    }, {
+      "text" : "Can you send me a recording of a lesson with a student? I want to listen to the last lesson."
+    }, {
+      "text" : "How long are lesson recordings stored on the platform?"
+    }, {
+      "text" : "If we teach a lesson on Skype, do I need to record the lesson?"
+    }, {
+      "text" : "I see that the student previously studied on the platform, but I cannot listen to the recording of the lesson from 15.10. Can you send it to me?"
+    }, {
+      "text" : "Lesson recordings"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/platform_meetings",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Children's and adult group meetings"
+    }, {
+      "text" : "ow to cancel and reschedule a webinar or group lesson?"
+    }, {
+      "text" : "How to save a webinar and group lesson in case of technical problems"
+    }, {
+      "text" : "How do group classes differ from individual ones?"
+    }, {
+      "text" : "Rules for group lessons with adult students"
+    }, {
+      "text" : "Tell me how groups are formed?"
+    }, {
+      "text" : "What are mandatory attendance reports and do I need to fill them out or does the system do it?"
+    }, {
+      "text" : "Are there cancellations or rescheduling for group lessons?"
+    }, {
+      "text" : "I want to close the direction of group lessons and no longer teach them. Can you delete all my group lessons?"
+    }, {
+      "text" : "What are the advantages of the group format?"
+    }, {
+      "text" : "How to mark a group lesson?"
+    }, {
+      "text" : "I had a problem, we agreed with the group to reschedule the lesson, how to do this?"
+    }, {
+      "text" : "In group 2 U. If one of the students did not come to the lesson, can I mark the status of the lesson as having taken place?"
+    }, {
+      "text" : "The student has difficulties with the material, it is too difficult. He needs to be transferred to another group to make it easier for him. How to do it?"
+    }, {
+      "text" : "I want to cancel the group, how do I do this?"
+    }, {
+      "text" : "Group meetings for kids and adults"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_save",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "My student 32434 has no electricity at home! What to do, her lesson will start in a few minutes..."
+    }, {
+      "text" : "There was a connection problem. While they were solving the problem, 26 minutes of the lesson passed. The student is silent. Please tell me how to correctly mark the status of the lesson: failed due to technical problems?"
+    }, {
+      "text" : "How to save a lesson in case of massive problems on the platform"
+    }, {
+      "text" : "Please tell me what I need to do before contacting support services of technical problems arise during the lesson?"
+    }, {
+      "text" : "I can teach a lesson on another platform, if there is a technical glitch in the lesson, can you tell me which platforms I can switch to?"
+    }, {
+      "text" : "Do I need to record a lesson on another platform if there are technical difficulties on the school platform? What to do with the recording?"
+    }, {
+      "text" : "The platform doesn’t work, the materials don’t work, nothing works, what should I do with the lesson?"
+    }, {
+      "text" : "What materials should I use if the lesson takes place outside the platform?"
+    }, {
+      "text" : "the student did not come to class, how can I save him?"
+    }, {
+      "text" : "A student has technical problems, what should I do?"
+    }, {
+      "text" : "My internet connection is weak. Can I reschedule the lesson if the student doesn't mind? I wouldn't want to lose the lesson."
+    }, {
+      "text" : "The student wrote that he will not be able to be in class, he is currently having problems with communication, I would like to reschedule the lesson. Is it possible to do this?"
+    }, {
+      "text" : "My lights went out during class. Please contact U to reschedule the lesson for a later date. Doesn't answer me now"
+    }, {
+      "text" : "There were problems during the lesson, what should I do? The TAs are not responding. U and I are sitting waiting, what should we do?"
+    }, {
+      "text" : "The student and I did not open the cards, we want to reschedule the lesson for tomorrow. Please help me save the lesson"
+    }, {
+      "text" : "Saving a lesson"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/rewards_payout_status",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Please tell me when I will receive the payment"
+    }, {
+      "text" : "the second question is related to payment"
+    }, {
+      "text" : "I wanted to ask about my salary. Part of the salary was transferred to the bank card, but the second part was not received. Who can I contact?"
+    }, {
+      "text" : "Today is payday, but the salary has not left the balance in your personal account. Is this normal?)"
+    }, {
+      "text" : "I see that the second payment has not gone through"
+    }, {
+      "text" : "when will the payment arrive?"
+    }, {
+      "text" : "The first one has already arrived, when will the second payment be made?"
+    }, {
+      "text" : "Usually it comes on Monday when the payment arrives"
+    }, {
+      "text" : "can you send the payment earlier, I urgently need it"
+    }, {
+      "text" : "why does it take so long, usually the payment happens on Monday"
+    }, {
+      "text" : "It says rejected, is everything okay with the payment?"
+    }, {
+      "text" : "I receive a payment to Solar Staff, but the balance there is 0, the balance in my personal account is 0. When will I receive the money?"
+    }, {
+      "text" : "It's been 5 days and the payment hasn't arrived. How do I know when I'll receive the money?"
+    }, {
+      "text" : "It is indicated on the finance page that the payment has been made, but the money has not been received. Tell me, please, what is the status of the payment, what is happening?"
+    }, {
+      "text" : "Can you please tell me if there are any glitches on the platform? Why is the payment not coming?"
+    }, {
+      "text" : "Status of the next payout"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/manager_contacts",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "How can I contact the school?"
+    }, {
+      "text" : "Can you give me the school's contact information?"
+    }, {
+      "text" : "What email should I write to?"
+    }, {
+      "text" : "What number can I contact?"
+    }, {
+      "text" : "Who can I call in an emergency?"
+    }, {
+      "text" : "How can a student contact the school?"
+    }, {
+      "text" : "do you have a hotline number?"
+    }, {
+      "text" : "What school contacts do you have?"
+    }, {
+      "text" : "I need to indicate contacts from my workplace, what contacts do you have?"
+    }, {
+      "text" : "How to call the school? student from Kazakhstan."
+    }, {
+      "text" : "U asks how to call the school, he is not from the Russian Federation, what can I answer him?"
+    }, {
+      "text" : "In roaming, is it possible to contact him on WhatsApp? He can't answer calls? How can he contact you?"
+    }, {
+      "text" : "Can I write to you on Telegram?"
+    }, {
+      "text" : "Can I call you to resolve my issues or can I only write via chat? Are there other ways to contact?"
+    }, {
+      "text" : "Call me urgently or give me a phone number so I can call"
+    }, {
+      "text" : "School contacts"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/quit_school",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I won't go back to Skyeng, I'm sorry, but there are things I need to take care of. I am very grateful to you for giving me the opportunity to work with this wonderful company over the past 6 years. :)"
+    }, {
+      "text" : "I want to stop working with the school"
+    }, {
+      "text" : "I'm leaving school from today"
+    }, {
+      "text" : "I'm resigning because of your performance as of today."
+    }, {
+      "text" : "I will no longer work with the student and wish to stop collaborating with you"
+    }, {
+      "text" : "Remove all students, I need to go on maternity leave, I will no longer be able to cooperate with the school"
+    }, {
+      "text" : "I'm stopping working for you and moving to a new position, goodbye"
+    }, {
+      "text" : "Do I need to work before I quit?"
+    }, {
+      "text" : "What do I need to fill out to stop working here?"
+    }, {
+      "text" : "Unfortunately, due to unforeseen circumstances I need to leave school, what should I do?"
+    }, {
+      "text" : "I'm stopping cooperation starting next week. Can I return to teaching within a year, for example?"
+    }, {
+      "text" : "I filled out the termination form, how can I check whether you received it or not?"
+    }, {
+      "text" : "I want to take a break from work for six months. Is there such a possibility or should we just stop cooperation?"
+    }, {
+      "text" : "I can't work here anymore, what should I do to stop working at the school?"
+    }, {
+      "text" : "I am forced to leave school to go where I will be valued. How to do it?"
+    }, {
+      "text" : "Terminate collaboration"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/motivation_scheme",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Why did the motivation scheme change?"
+    }, {
+      "text" : "What indicators influence the new motivational scheme?"
+    }, {
+      "text" : "What exactly has changed in the remuneration scheme?"
+    }, {
+      "text" : "If I went on a long break, how will the detail be calculated in the new scheme?"
+    }, {
+      "text" : "Are the exceptions for Retention in the new motivational scheme the same as in the rating?"
+    }, {
+      "text" : "What are these points and how do I get them?"
+    }, {
+      "text" : "I combine “Premium” and general school. Will I have any problems receiving my reward? How will this work?"
+    }, {
+      "text" : "With the new compensation scheme I will earn less. Why is the school saving on me?"
+    }, {
+      "text" : "Why will my diamond students cost less?"
+    }, {
+      "text" : "Why is there no increase in basic remuneration in the new scheme?"
+    }, {
+      "text" : "I have 5 Premium students and 2 regular school students. The Premium student stopped studying last month. Will his departure affect the retention rate?"
+    }, {
+      "text" : "In Skysmart, lessons with premium U and OSH are not taken into account in bonuses, but in the new MS in Skyeng they are added up. Why are we losing the bonus?"
+    }, {
+      "text" : "If I go on a break, my performance indicator drops and I receive a smaller payout. Why is this not fair?"
+    }, {
+      "text" : "P takes a long break, incl. for 90 days, after a break, how will her scheme be considered? According to this month’s indicators, either everything will be 0 and she will receive a bare rate"
+    }, {
+      "text" : "Lesson with the status \"Skipped by the student\". Will there be a bonus for the lesson?"
+    }, {
+      "text" : "Новая мотивационная схема"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/lesson_move_once_move",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I have a vacation scheduled for May 16th and 17th. Now I want to move my student from 11:00 on Friday to the previous Tuesday, i.e. May 14th. The problem is that the system only allows me to reschedule the lesson for 11:50, and not for 13:10, the time the student wants. I'm attaching a screenshot. I think it's because I've already arranged a vacation. Can you help me reschedule it to 13:10 on Tuesday for student - 3296190?"
+    }, {
+      "text" : "Could you please reschedule ID 10446403 lesson now to May 27th at 6pm MSK? It was agreed by the student."
+    }, {
+      "text" : "My new student Vlad (ID 38204797) asked me to move his lesson next week from Wednesday evening to Thursday morning"
+    }, {
+      "text" : "We agreed to reschedule the lesson for tomorrow at 17:00, can you help?"
+    }, {
+      "text" : "the lesson is going on now, but we want to reschedule the lesson, can you help"
+    }, {
+      "text" : "agreed to reschedule a lesson with a student, how to do it"
+    }, {
+      "text" : "I need to reschedule class"
+    }, {
+      "text" : "The student’s parent wrote in the chat and asked to reschedule the lesson a few hours earlier."
+    }, {
+      "text" : "We have a lesson on Thursday, but I won’t be able to go out on Thursday, I need to reschedule the lesson"
+    }, {
+      "text" : "ID 8956 postponement of classes from 18.4 to 30.4 12 Moscow time"
+    }, {
+      "text" : "D 34986746 contacted me and asked us to postpone our first lesson just one time to 12:00 on April 16"
+    }, {
+      "text" : "I have a student, Id: 938786 , on a trip, asking to reschedule a lesson that is scheduled for today 05/15/2024 at 12:00"
+    }, {
+      "text" : "ID 3249089, please reschedule the lesson from today at 12:00 to Sun 26.05 at 11:00"
+    }, {
+      "text" : "the student asked to move one lesson from Friday to Monday at 15.00"
+    }, {
+      "text" : "It is necessary to reschedule the lesson on May 15 with student 32657 to June 18 at 19:00 due to the initiative student."
+    }, {
+      "text" : "Rescheduling a lesson on a one-time basis"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/offer__info",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "offers"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/register_rocket_work",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Register as an Individual Entrepreneur (IE) in the Russian Federation"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/data_updating_error",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "An error occurred while filling in the data"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/data_updating_question",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "I still have a question about filling in the data"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/data_updating",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Verification Question"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  } ],
+  "entities" : [ ],
+  "enabledSystemEntities" : [ "duckling.number", "duckling.time", "duckling.duration", "duckling.phone-number", "duckling.email", "duckling.url" ],
+  "spellerDictionary" : [ ],
+  "systemEntities" : [ {
+    "name" : "mystem.geo",
+    "enabled" : false
+  }, {
+    "name" : "mystem.persn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.obsc",
+    "enabled" : false
+  }, {
+    "name" : "mystem.patrn",
+    "enabled" : false
+  }, {
+    "name" : "mystem.famn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.romn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.latn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.numb",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.intg",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.abbr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.name",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.surn",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.patr",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.geox",
+    "enabled" : false
+  }, {
+    "name" : "pymorphy.orgn",
+    "enabled" : false
+  }, {
+    "name" : "duckling.number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.ordinal",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.amount-of-money",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.distance",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.date",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.time-of-day",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "duckling.duration",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.phone-number",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.email",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.url",
+    "version" : "v2",
+    "enabled" : true
+  }, {
+    "name" : "duckling.interval",
+    "version" : "v2",
+    "enabled" : false
+  }, {
+    "name" : "mlps-obscene.obscene",
+    "enabled" : false
+  }, {
+    "name" : "zb.datetime",
+    "enabled" : false
+  }, {
+    "name" : "zb.number",
+    "enabled" : false
+  } ],
+  "faq" : [ ],
+  "skills" : [ ]
+}

@@ -1,0 +1,13 @@
+<test>
+    
+    <test-case id="thanks → IssueResolved/Ask">
+        <state>IssueResolved/Ask</state>
+        <q>thanks</q>
+        <a>a24.000.010en</a>
+        <a>a24.000.012en</a>
+        <responseData field="replies[2]">
+            {"type":"buttons","buttons":[{"text":"b24.000.012en"}],"state":"/IssueResolved/Ask"}
+        </responseData>
+    </test-case>
+    
+</test>

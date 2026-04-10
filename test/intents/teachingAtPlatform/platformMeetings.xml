@@ -1,0 +1,115 @@
+<test>
+
+	<test-case>
+    	<q>Children's and adult group meetings</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>ow to cancel and reschedule a webinar or group lesson?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to save a webinar and group lesson in case of technical problems</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How do group classes differ from individual ones?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Rules for group lessons with adult students</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Tell me how groups are formed?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>What are mandatory attendance reports and do I need to fill them out or does the system do it?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Are there cancellations or rescheduling for group lessons?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I want to close the direction of group lessons and no longer teach them. Can you delete all my group lessons?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>What are the advantages of the group format?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to mark a group lesson?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I had a problem, we agreed with the group to reschedule the lesson, how to do this?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>In group 2 U. If one of the students did not come to the lesson, can I mark the status of the lesson as having taken place?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>The student has difficulties with the material, it is too difficult. He needs to be transferred to another group to make it easier for him. How to do it?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I want to cancel the group, how do I do this?</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Group meetings for kids and adults</q>
+    	<a>a24.007.005en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+</test>

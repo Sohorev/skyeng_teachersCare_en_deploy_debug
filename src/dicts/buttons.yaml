@@ -1,0 +1,61 @@
+b24.000.001en:
+  - text: "Main menu"
+    transition: ""
+  - text: "Contact the operator"
+    transition: ""
+b24.000.002en:
+  - text: "Yes, my issue was resolved"
+    transition: ""
+  - text: "No, my issue wasn't resolved"
+    transition: 
+#   - text: "Main menu"
+#     transition: ""
+b24.000.011en:
+  - text: "Contact the operator"
+    transition: ""
+  - text: "Yes, my issue was resolved"
+    transition: ""
+  - text: "No, my issue wasn't resolved"
+    transition: 
+#   - text: "Main menu"
+#     transition: ""
+b24.000.012en:
+  - text: "Yes, my issue was resolved"
+    transition: ""
+  - text: "No, my issue wasn't resolved"
+    transition: 
+#   - text: "Main menu"
+#     transition: ""
+b24.000.014en:
+  - text: "5. Wonderful"
+    transition: ""
+  - text: "4. Good, but could've been better"
+    transition: 
+  - text: "3. Average"
+    transition: ""
+  - text: "2. Poor"
+    transition: 
+  - text: "1. Very bad"
+    transition: ""
+b24.000.015en:
+  - text: "Using the platform"
+    transition: "/TeachingAtPlatform/PlatformQuestions"
+  - text: "Popular questions"
+    transition: "/MainMenu/PopularQuestions"
+b24.000.016en:
+  - text: "Saving a lesson"
+    transition: "/MainMenu/PopularQuestions/SaveLesson"
+  - text: "Back"
+b24.000.017en:
+  - text: "Main menu"
+
+b24.007.001en:
+  - text: "Homework, tests and other"
+    transition: "/TeachingAtPlatform/HomeworkAndTests"
+  - text: "Back"
+b24.007.002en:
+  - text: "Tests"
+    transition: "/TeachingAtPlatform/HomeworkAndTests/Tests"
+  - text: "Homework"
+    transition: "/TeachingAtPlatform/HomeworkAndTests/Homework"
+  - text: "Back"

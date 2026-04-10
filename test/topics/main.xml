@@ -1,0 +1,25 @@
+<test>
+    
+    <test-case id="OpenWidget: *start then Hello → MainMenu">
+        <context var="session">
+            {"mainMenu1": true}
+        </context>
+        <q>*start</q>
+        <a>a24.000.001en</a>
+        <event>OpenWidget</event>
+        <a>a24.000.004en</a>
+        <responseData field="replies[1].buttons">
+            [{"text":"b24.000.015en"}]
+        </responseData>
+    </test-case>
+    
+    <test-case id="MainMenu → Using the platform">
+        <state>MainMenu</state>
+        <q>Using the platform</q>
+        <a>a24.000.004en</a>
+        <responseData field="replies[1].buttons">
+            [{"text": "b24.007.001en"}]
+        </responseData>
+    </test-case>
+    
+</test>

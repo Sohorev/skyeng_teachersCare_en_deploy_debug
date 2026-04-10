@@ -1,0 +1,115 @@
+<test>
+
+	<test-case>
+    	<q>Lesson recordings</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Are lessons recorded?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>how to listen to a recording of a lesson?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>is there a video recording of the lesson?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Is there video and audio recording of lessons on the platform?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>What should I do if I taught a lesson not on the platform? Should I record it myself?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Tell me, please, where can I watch the recording of the lessons?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I wanted to listen to the recording of the lesson from March 14, I myself don’t see it on the platform now.</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Please tell me where I need to post a recording of the lesson I completed?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>and if a student does not come to a lesson, a recording of the lesson is saved in the student’s personal account?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>We taught a lesson outside the platform, but forgot to record the lesson. Is there any other way to confirm that the lesson was taught?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Can you send me a recording of a lesson with a student? I want to listen to the last lesson.</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How long are lesson recordings stored on the platform?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>If we teach a lesson on Skype, do I need to record the lesson?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I see that the student previously studied on the platform, but I cannot listen to the recording of the lesson from 15.10. Can you send it to me?</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Lesson recordings</q>
+    	<a>a24.007.004en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+</test>

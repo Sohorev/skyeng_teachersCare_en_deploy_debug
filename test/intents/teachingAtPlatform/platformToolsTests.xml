@@ -1,0 +1,115 @@
+<test>
+
+	<test-case>
+    	<q>How to send tests to a student?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to delete tests?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Are there tests in the mobile application?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to pass tests in MP?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Which test should I choose for this student 1235686?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to check tests?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Where can a student find tests?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to make practice exam tests and send them to the student?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>What to do with errors in the test?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>What is Screening test and how to sign up for it?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I sent Y a test, but he doesn't see it. Tell me what the reason is.</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Is it possible to reset answers in a test?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>The student took the test, but the allotted time ran out. Is it possible to reset the timer?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Do I get paid for reviewing tests?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>The student completed the test, but I can't see it. You can check?</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Tests</q>
+    	<a>a24.007.001en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+</test>

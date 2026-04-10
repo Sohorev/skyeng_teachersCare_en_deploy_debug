@@ -1,0 +1,115 @@
+<test>
+
+	<test-case>
+    	<q>How to find a dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Does the mobile application have a dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to add a word to the dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to remove a word from the dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>the student cannot find the dictionary</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>where can I find a dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>how to download words in a dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Is it possible to add your own words to the dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>The student does not display words in the dictionary</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>The student’s dictionary does not work, words from previous lessons are not shown</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to view lists of words in the dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I want to add an additional meaning to a word in the dictionary. Is this possible?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Can I myself see what words the student has in the dictionary?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>I wanted to add words, but I can't. What to do? Will they not be displayed to the student?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>How to add words from the lesson catalog to a student’s dictionary for study?</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+	<test-case>
+    	<q>Wordlist</q>
+    	<a>a24.007.002en</a>
+    	<a>a24.000.012en</a>
+    	<timeoutReply interval="3600" targetState="/TimedOut"/>
+	</test-case>
+
+</test>

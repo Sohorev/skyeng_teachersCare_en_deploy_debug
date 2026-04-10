@@ -1,0 +1,18 @@
+<test>
+    
+    <test-case id="CSI: Yes resolved → 5. Wonderful → session end">
+        <state>IssueResolved/Ask</state>
+        <q>Yes, my issue was resolved</q>
+        <a>a24.000.014en</a>
+        <responseData field="replies[1]">
+            {"type":"buttons","buttons":[{"text":"b24.000.014en"}],"state":"/CSI/AskAssessment"}
+        </responseData>
+        <q>5. Wonderful</q>
+        <a>a24.000.015en</a>
+        <responseData field="replies[1]">
+            {"type":"buttons","buttons":[{"text":"b24.000.017en"}],"state":"/CSI/AskAssessment/GetAssessment"}
+        </responseData>
+        <a>Закрытие сессии.</a>
+    </test-case>
+    
+</test>

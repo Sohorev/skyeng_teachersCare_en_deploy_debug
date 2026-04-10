@@ -1,0 +1,68 @@
+name: skyeng_teachersCare_en
+
+entryPoint: main.sc
+
+scriptRuntime:
+  requirementsFile: package.json
+  forceEs6: true
+
+botEngine: v2
+language: en
+
+tests:
+  include:
+    # - intents/*/*.xml
+    - topics/*.xml
+
+sts:
+  noMatchThreshold: 0.3
+
+caila:
+  noMatchThreshold: 0.3
+  
+nlp:
+   lengthLimit:
+      enabled: true
+      symbols: 600
+   timeLimit:
+      enabled: true
+      timeout: 30000
+      
+injector:
+
+    infoMsg: false
+    timeoutInterval: 3600
+    currentLanguage: en
+    botConnectorId: "1000111377-konnektor_teachersca-1000111377-aDq-20946166764" # prod
+    # botConnectorId: "1000111377-konnektor_teachersca-1000111377-uqs-20946158267" # test
+    tokenChatApi: "0000000000000000" # prod
+    # tokenChatApi: "00001111111111" # test
+    
+    api:
+      url: https://cs-chatbot-backend.skyeng.ru
+      apiToken: secret
+        
+    bugBot:
+        botName: "skyeng_teachersCare_en"
+        botId: "1111"
+        chatId: "2222"
+        YOUGILE_KEY_TASK: "3333"
+        YOUGILE_KEY_MESSAGES: "4444"
+        columnId: "afsd"
+        tasksUrl: "https://ru.yougile.com/api-v2/tasks"
+        messagesUrl: "https://yougile.com/data/api-v1/messages"
+    
+
+dependencies:
+  - name: skyeng_common
+    type: git
+    url: https://github.com/Digital-Intelligence-org/skyeng_dependencies
+    version: heads/COMM-7379-es6_TC
+    loginSecretKey: GITHUB_LOGIN_SECRET
+    tokenSecretKey: GITHUB_TOKEN_SECRET
+  - name: common_di
+    type: git
+    url: https://github.com/Digital-Intelligence-org/common_di
+    version: master
+    loginSecretKey: GITHUB_LOGIN_SECRET
+    tokenSecretKey: GITHUB_TOKEN_SECRET
